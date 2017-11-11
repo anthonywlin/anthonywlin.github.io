@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><style>.limit_reached{color:red}</style></head>
+
+<body>
+<h1>This is a simple example of HTML5 application</h1>
+
+<div class="input_fields_wrap">
+    <button class="add_field_button">Add More Fields</button>
+    <div><input type="text" name="mytext[]"></div>
+</div>
+<div>Total number of boxes: </div><div id="counter">1</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function() {
+  var wrapper = $(".input_fields_wrap");
+  var x = 1;
+
+  $(".add_field_button").click(function(e){
+          x++;
+          $(wrapper).append(
+              '<div>' +
+              '  <input type="text"' +
+              '         name="mytext[]"/>' +
+              '  <a href="#"' +
+              '     class="remove_field">' +
+              '    Remove' +
+              '  </a>' +
+              '</div>'
+          );
+          $("#counter").html(x);
+  });
+
+  $(wrapper).on("click",
+                ".remove_field",
+                function(e){
+      $(this).parent('div').remove();
+      x--;
+      $("#counter").html(x);
+      $(".limit_reached").removeClass("limit_reached");
+  })
+});
+</script>
+</body>
+</html>
