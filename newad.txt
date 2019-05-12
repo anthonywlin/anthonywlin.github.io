@@ -1,7 +1,9 @@
-We are looking for research assistants at the PhD student and postdoctoral
+We are looking for research assistants at the PhD level and postdoctoral
 researchers in Algorithmic Verification of String-Manipulating Programs at
-Technische Universität Kaiserslautern, Germany. The post is fixed-term, but the
-duration is negotiable (between 1-4 years, with possible extensions). The
+Technische Universität Kaiserslautern, Germany. The post is fixed-term.
+Research assistants at the PhD level will be funded for a standard duration of
+a PhD study at TUK (between 3-4 years). Postdoc researchers will initially be
+funded for two years with a possibility of extension of up to four years. The
 expected starting date is as soon as possible (preferably around August 2019,
 but this is negotiable).
 
@@ -16,7 +18,7 @@ related areas like mathematics) with experience in at least one of the following
 areas: logic, algorithms, programming language theory/implementation, formal
 language theory, and formal verification.
 
-Research environments: successful applicants will work within the Automated
+Research environment: successful applicants will work within the Automated
 Reasoning Research Group led by Prof. Anthony W. Lin
 (https://anthonywlin.github.io/). They will at times be asked to collaborate
 with close colleagues at Max-Planck Institute for Software Systems (also located
@@ -27,4 +29,4 @@ China (Beijing), and Chile (Santiago).
 
 For informal enquiries, please contact Anthony Lin (lin@cs.uni-kl.de).
 
-Closing date is noon CEST on Friday 31 May 2019.
+Closing date is noon CEST on Friday 7 June 2019.
