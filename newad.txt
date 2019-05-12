@@ -1,0 +1,30 @@
+We are looking for research assistants at the PhD student and postdoctoral
+researchers in Algorithmic Verification of String-Manipulating Programs at
+Technische Universität Kaiserslautern, Germany. The post is fixed-term, but the
+duration is negotiable (between 1-4 years, with possible extensions). The
+expected starting date is as soon as possible (preferably around August 2019,
+but this is negotiable).
+
+Successful applicants will help drive our effort in developing theories and/or
+implementations of a fast string constraint solver (possibly building on top of
+our existing solver OSTRICH https://github.com/uuverifiers/ostrich), as well as
+applying them to several domains including web security, personalized online
+education, program repair, and verification of parameterized systems. 
+
+Ideally, applicants should have strong backgrounds in computer science (or
+related areas like mathematics) with experience in at least one of the following
+areas: logic, algorithms, programming language theory/implementation, formal
+language theory, and formal verification.
+
+Research environments: successful applicants will work within the Automated
+Reasoning Research Group led by Prof. Anthony W. Lin
+(https://anthonywlin.github.io/). They will at times be asked to collaborate
+with close colleagues at Max-Planck Institute for Software Systems (also located
+at the TUK campus) including Prof. Rupak Majumdar, Dr. Daniel Neider, and Dr.
+Georg Zetzsche), as well as close colleagues at other institutes in Germany
+(Munich) UK (Oxford, Edinburgh, and London), Sweden (Uppsala), Taiwan (Taipei),
+China (Beijing), and Chile (Santiago). 
+
+For informal enquiries, please contact Anthony Lin (lin@cs.uni-kl.de).
+
+Closing date is noon CEST on Friday 31 May 2019.
