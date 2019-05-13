@@ -24,7 +24,7 @@ Reasoning Research Group led by Prof. Anthony W. Lin
 with close colleagues at Max-Planck Institute for Software Systems (also located
 at the TUK campus) including Prof. Rupak Majumdar, Dr. Daniel Neider, and Dr.
 Georg Zetzsche), as well as close colleagues at other institutes in Germany
-(Munich) UK (Oxford, Edinburgh, and London), Sweden (Uppsala), Taiwan (Taipei),
+(Munich), UK (Oxford, Edinburgh, and London), Sweden (Uppsala), Taiwan (Taipei),
 China (Beijing), and Chile (Santiago). 
 
 For informal enquiries, please contact Prof. Anthony Lin (lin@cs.uni-kl.de).
