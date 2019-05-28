@@ -1,8 +1,8 @@
-We are looking for research assistants at the PhD level and postdoctoral
-researchers in Algorithmic Verification of String-Manipulating Programs at
-Technische Universität Kaiserslautern, Germany. The post is fixed-term.
-Research assistants at the PhD level will be funded for a standard duration of
-a PhD study at TUK (between 3-4 years). Postdoc researchers will initially be
+We are looking for postdoctoral researchers and research assistants at the PhD 
+level to work on the ERC project Algorithmic Verification of String-Manipulating
+Programs at Technische Universität Kaiserslautern, Germany. Research assistants 
+at the PhD level will be funded for a standard duration of a PhD study at TUK 
+(between 3-4 years). Postdoc researchers will initially be
 funded for two years with a possibility of extension of up to four years. The
 expected starting date is as soon as possible (preferably around August 2019,
 but this is negotiable).
@@ -16,16 +16,17 @@ education, program repair, and verification of parameterized systems.
 Ideally, applicants should have strong backgrounds in computer science (or
 related areas like mathematics) with experience in at least one of the following
 areas: logic, algorithms, programming language theory/implementation, formal
-language theory, and formal verification.
+language theory, concurrency theory, and formal verification.
 
 Research environment: successful applicants will work within the Automated
 Reasoning Research Group led by Prof. Anthony W. Lin
-(https://anthonywlin.github.io/). They will at times be asked to collaborate
-with close colleagues at Max-Planck Institute for Software Systems (also located
+(https://anthonywlin.github.io/). Our group enjoys close collaboration
+with colleagues at Max-Planck Institute for Software Systems (also located
 at the TUK campus) including Prof. Rupak Majumdar, Dr. Daniel Neider, and Dr.
-Georg Zetzsche), as well as close colleagues at other institutes in Germany
-(Munich), UK (Oxford, Edinburgh, and London), Sweden (Uppsala), Taiwan (Taipei),
-China (Beijing), and Chile (Santiago). 
+Georg Zetzsche), as well as colleagues at other institutes in Germany
+(e.g. Munich), UK (Oxford, Edinburgh, Birmingham, and London), Sweden (Uppsala),
+Taiwan (Taipei), China (Beijing), Australia (Melbourne, Canberra), Singapore, 
+and Chile (Santiago). 
 
 For informal enquiries, please contact Prof. Anthony Lin (lin@cs.uni-kl.de).
 
