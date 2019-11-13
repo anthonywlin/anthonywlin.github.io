@@ -1,4 +1,4 @@
-# Two PhD Studentships in Automated Reasoning Group at MPI for Softwre Systems
+# Two PhD Studentships in Automated Reasoning Group at MPI for Software Systems
 
 We have two openings for PhD studentships in a new Automated Reasoning Group 
 led by Prof. Anthony W. Lin at MPI for Software Systems. The studentships last 
