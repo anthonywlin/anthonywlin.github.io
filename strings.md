@@ -8,7 +8,6 @@ string-manipulating programs. This project is currently hosted at
 TU Kaiserslautern, and was hosted from November 2018 to February 2020 at 
 University of Oxford. Check out our string solver [OSTRICH](https://github.com/pruemmer/ostrich).
 
-
 ## Members
 ### Current Members
 - Prof. Anthony W. Lin (Principal Investigator)
@@ -36,6 +35,10 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - [OSTRICH](https://github.com/pruemmer/ostrich). 
 - [SLOTH](https://github.com/uuverifiers/sloth/wiki)
 
+## Press
+- AV-SMP was featured in Inspired Research Newsletter Summer 2018 - Issue 12.
+  [Here](inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
+
 ## Publications
 - [Probabilistic Bisimulation for Parameterized Systems - with applications to verifying anonymous protocols](papers/cav19.pdf). In CAV'19. (Chih-Duo Hong, Anthony W. Lin Rupak Majumdar, and Philipp Ruemmer)
 - [Monadic Decomposability of Regular Relations](papers/icalp19.pdf).
@@ -54,3 +57,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 W. Lin and Zhilin Wu)
 - [String Constraints with Concatenation and Transducers Solved Efficiently](papers/popl18-efficient.pdf), In POPL'18. (Lukas Holik, Petr Janku, Anthony W.
   Lin, Philipp Ruemmer, and Tomas Vojnar)
+
+---
+title: Document Center
+---
