@@ -57,7 +57,3 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 W. Lin and Zhilin Wu)
 - [String Constraints with Concatenation and Transducers Solved Efficiently](papers/popl18-efficient.pdf), In POPL'18. (Lukas Holik, Petr Janku, Anthony W.
   Lin, Philipp Ruemmer, and Tomas Vojnar)
-
----
-title: Document Center
----
