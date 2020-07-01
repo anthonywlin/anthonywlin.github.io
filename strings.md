@@ -37,7 +37,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 
 ## Press
 - AV-SMP was featured in Inspired Research Newsletter Summer 2018 - Issue 12.
-  [Here](inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
+  [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
 - [Probabilistic Bisimulation for Parameterized Systems - with applications to verifying anonymous protocols](papers/cav19.pdf). In CAV'19. (Chih-Duo Hong, Anthony W. Lin Rupak Majumdar, and Philipp Ruemmer)
