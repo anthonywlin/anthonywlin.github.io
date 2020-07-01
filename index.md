@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+
+	#ad {
+        font-size: large;
+	    font-weight: bold;
+	    width: 700px;
+	    height: 30px;
+	    position: relative;
+	    background-color: yellow;
+	}
+
+</style>
+  <title>Home Page for Anthony Widjaja Lin (previously Anthony Widjaja To) 
+  </title>
+  <link rel="icon" type="image/jpg" href="anthony-talk.jpg"/>
+</head>
+
+<body>
+<div class="container">
+<header>
+<p><img alt="Talk at Vienna" src="anthony-talk.jpg" width="50%" /></p>
+
+<h1>Anthony Widjaja Lin</h1> 
+<div style="font-size: small">Professor in 
+    Theoretical Computer Science (<a href="http://arg.cs.uni-kl.de">Automated 
+        Reasoning</a>) at TU Kaiserslautern.</div>
+<p></p>
+
+<p><img alt="My email address" src="email.png" /></p>
+</header>
+</div>
+
+<div class="container">
+<nav>
+	<ul class="list-inline">
+		<li><a href="#news">News</a></li>
+		<li><a href="#background">Background</a></li>
+		<li><a href="#research">Research</a></li>
+		<li><a href="#team">PhD students</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#teaching">Teaching</a></li>
+	</ul>
+</nav>
+</div>
+
+
+<hr />
+
+<div class="container">
+<p></p>
+
+<h3 id="news"><span style="color: #0071FF">News</span></h3>
+<ul>
+    <li><span id="ad">I have <a href="ausschreibung.pdf">two PhD positions at 
+                MPI-SWS</a></span>. 
+    Topic is flexible, but has to be 
+    aligned with my general interests (see below). Email me with your CV and 
+    explain why you are interested.
+        </li>
+    <li>Submit to <a href="http://i-cav.org/2020/">CAV 2020</a></li>
+    <li>I have been recently awarded a Max-Planck Fellowship. Thanks to 
+        everyone who supported me</li>
+</ul>
+
+<p></p>
+
+<h3 id="background"><span style="color: #0071FF">Background</span></h3>
+<ul>
+  <li>Professor in Theoretical Computer Science (Automated Reasoning),
+      ERC Starting Grant Fellow, and Max-Planck Fellow
+      at <a href="https://www.informatik.uni-kl.de/">Technical University of 
+          Kaiserslautern, Germany</a></li>
+  <ul>Previously:
+      <li>(2016 - 2019) Associate Professor in Programming Languages at 
+	<a href="https://www.cs.ox.ac.uk/">Oxford University Department of 
+		Computer Science</a> and Governing Body Fellow at <a href="https://www.kellogg.ox.ac.uk/">Kellogg
+        College</a></li>
+  <!--<li>Postdoctoral experience:
+  	<ul>
+		<li> EPSRC Postdoctoral Research Fellow at Oxford 
+			University hosted by <a href="http://www.cs.ox.ac.uk/marta.kwiatkowska/">Marta Kwiatkowska</a> (2010-2013)
+  		<li> two short postdoc stints:
+		at Academia Sinica, Taiwan, (Oct 2013 - Mar 2014) 
+		and at SUTD (January - May 2014).
+	</ul>!-->
+    <li>(2014 - 2016) assistant professor at <a 
+                                    href="https://www.yale-nus.edu.sg">Yale-NUS, Singapore</a></li>
+  </ul>
+  <li>Completed PhD in Informatics at University of Edinburgh in 2010 under
+  	<a href="https://homepages.inf.ed.ac.uk/libkin/">Leonid Libkin</a>
+  	(supervisor) and 
+  	<a href="https://homepages.inf.ed.ac.uk/rmayr/">Richard Mayr</a>
+  	(co-advisor).</li>
+</ul>
+
+<p></p>
+
+<h3 id="research"><span style="color: #0071FF">Research</span></h3>
+<p>I am interested in developing methods using logic and automata for
+automatically reasoning about programs. At the moment, I have been doing lots of
+research related to logics over strings. I like applications that
+arise from web security/optimisation, analysis of large concurrent programs,
+and databases, to name a few. 
+When doing research, I always try to strike a healthy balance between theory, 
+tool construction, and case studies. </p>
+  <ul>
+  <li><b>Current research projects</b>:
+  	<ul>
+ 	<li><i>Constraint solving and program analysis for the Web</i>:
+ 		<ul>
+ 		<li>String solving for vulnerability detection in web 
+            applications.</li>
+ 		<li>Web performance optimisation, e.g., detecting redundant CSS 
+            rules.</li>
+ 		</ul>
+  	<li><i>Verification of parameterized concurrent systems</i>:
+  		<ul>
+        <li>Regular model checking</li>
+  		</ul>
+  	</ul>
+    <!--
+  <li><b>Past projects</b>: 
+      <ul>
+      <li><a href="https://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H026878/1">Transducer-based approach to infinite-state model checking</a>
+      <li><a href="https://www.comlab.ox.ac.uk/RECOUNT/">Model checking REcursive programs with COUNTers</a>
+      </ul>--!>
+  <li><b>Some tools</b>:
+     <ul>
+     <li><a href="https://github.com/matthewhague/sat-css-tool">satcss</a> - 
+         one of the best CSS minifiers around at the moment in terms of
+         minification rate. It uses maxsat solvers to iteratively find best 
+         rule-merging opportunities that are difficult to identify otherwise.
+         <li><a href="https://github.com/pruemmer/ostrich">OSTRICH</a> -
+             hitherto the fastest string solver that supports concatenation,
+             replaceall, regular constraints, and other complex string 
+             operations like transducers.</a>
+       <li><a href="https://github.com/uuverifiers/sloth/wiki">Sloth</a> - a 
+new string solver that combines concatenation, transducers, replace, regular
+constraints, and length constraints.
+       <li><a href="https://github.com/uuverifiers/autosat/tree/master/LivenessProver">SLRP</a> - for automatically verifying liveness for randomised 
+parameterised systems and distributed protocols, and reasoning about two-player
+reachability games.
+</li>
+       <li><a href="https://bitbucket.org/truongkhanh/parasymmetry">ParaSymmetry
+		</a> - for automatically verifying/synthesising symmetry 
+		patterns and simulation preorder for parameterised systems
+		(see <a href="papers/vmcai16.pdf">our VMCAI paper</a>).</li>
+       <li><a href="https://bitbucket.org/matthewhague/treeped">TreePed</a>
+         - for detecting redundant CSS rules in HTML5 applications
+         (see <a href="papers/css-html5.pdf">here</a> for a
+         detailed description).
+       <li>ReCount - for verifying integer-manipulating concurrent 
+       recursive programs via reversal/synchronisation bounding (see our
+       <a href="papers/cav11.pdf">CAV'11 paper</a> and <a 
+       href="papers/cav12.pdf">CAV'12 paper</a>).
+     </ul>
+  <li><a href="publications.html">Publications</a> 
+     (<a href="https://scholar.google.com/citations?user=__5nnYUAAAAJ&hl=en">on 
+		Google Scholar</a>||||
+      <a href="https://dblp.uni-trier.de/pers/hd/l/Lin:Anthony_Widjaja">
+        on DBLP</a>)
+</ul>
+
+<p></p>
+
+<h3 id="team"><span style="color: #0071FF">Current team members</span>:</h3>
+<ul>
+    <li><a>Shuanglong Kan</a> (Postdoc, 2019 - present)</li>
+    <li><a href="https://www.cs.ox.ac.uk/people/muhammad.najib/">Muhammad
+            Najib</a> (Postdoc, 2019 - present)</li>
+    <li><a>Daniel Stan</a> (Postdoc, 2019 - present)</li>
+    <li><a href="https://www.cs.ox.ac.uk/people/chih-duo.hong/">Chih-Duo
+            Hong</a> (PhD student, 2017 - present)</li>
+    <li><a>Oliver Markgraf</a> (MSc researcher, 2019 - present)</li>
+</ul>
+
+<p></p>
+
+<h3 id="team"><span style="color: #0071FF">Graduated team members</span>:</h3>
+<ul>
+    <li><a href="https://www.cs.ox.ac.uk/people/reino.niskanen/">Reino
+            Niskanen</a> (postdoc, 2018 - 2019)</li>
+    <li><a href="http://www.cs.ox.ac.uk/people/xuanbach.le/">Xuan-Bach Le</a>
+    (postdoc, 2018 - 2019; PhD student, 2014 - 2017)</li>
+</ul>
+
+
+<p></p>
+
+<h3 id="events"><span style="color: #0071FF">Events</span>:</h3>
+<ul>
+	<li> PC chair/organiser:
+		<ul>
+            <li><a href="https://conf.researchr.org/home/aplas-2019">APLAS
+                    2019</a></li>
+            <li><a href="https://mosca19.github.io/">
+                MOSCA (Meetings on String Constraints and Applications)
+                2019</a></li>
+            <li><a href="http://formal-analysis.com/iceccs/2018/">ICECCS
+                    2018</a></li>
+			<li><a href="infinity16/">INFINITY 2016</a></li>
+			<li><a href="https://www2.ims.nus.edu.sg/Programs/016auto/index.php">IMS Workshop Series on Automata, Logic and Games (2016)</a>
+		</ul>
+	<li> Program committee member: 
+		<ul>
+            <li><a href="http://i-cav.org/2020/">CAV 2020</a></li>
+            <li><a href="http://www.macs.hw.ac.uk/ppdp2019/">PPDP 2019</a></li>
+            <li><a href="http://atva2019.iis.sinica.edu.tw/">ATVA 2019</a></li>
+            <li><a href="https://popl19.sigplan.org/track/VMCAI-2019">VMCAI 2019</a></li>
+            <li><a href="http://i-cav.org/2019/mentoring/">CAV 2019 Verification
+                    Mentoring Workshop</a></li>
+			<li><a href="https://lics.siglog.org/lics18/cfp.shtml">LICS 2018</a></li>
+			<li><a href="https://icalp17.mimuw.edu.pl">ICALP 2017</a></li>
+			<li><a href="https://psi.ispras.ru/en/">PSI 2017</a></li>
+			<li><a href="https://www.etaps.org/index.php/2017/fossacs">FoSSaCS 2017</a></li>
+			<li><a href="https://soict.hust.edu.vn/~aplas2016/">APLAS 2016</a></li>
+			<li><a href="PSI-2015-cfp.pdf">PSI 2015</a> 
+			<li><a href="https://lics.rwth-aachen.de/lics15/">LICS 2015</a>
+			<li> <a href="https://www.fit.vutbr.cz/~holik/INFINITY13/">INFINITY 2013</a>
+		</ul>
+</ul>
+
+<p></p>
+
+
+
+<h3 id="teaching"><span style="color: #0071FF">Teaching</span></h3>
+<ul>
+  <li>2018-2019:</li>
+    <ul>
+        <li><a
+                href="https://www.cs.uni-kl.de/en/studium/lehrveranstaltungen/modulhb/#89-0005">Logik</a>
+            (Bachelor) [Summer Semester]</li>
+        <li>Logic and Verification Seminar (Bachelor/Masters) [Summer Semester]</li>
+    </ul>
+  <li><i>Past (selected)</i>:
+  	<ul>
+	<li><a href="https://www.cs.ox.ac.uk/softeng/subjects/OOP.html">Object 
+	Oriented Programming</a> (2017)</li>
+	 <li>Theory of Computation - Instructor/Lecturer (Spring 2016)</li>
+	 <li>Introduction to Computational Thinking and Programming for All - 
+		Instructor/Lecturer (Spring 2016)</li>
+	 <li>2 x Scientific Inquiry - Instructor/Lecturer (Fall 2015)</li>
+	 <li><a href="https://flolac.iis.sinica.edu.tw/flolac15/">Logic for 
+		formal verification</a> - co-lecturer (Summer 2015, National
+		Taiwan University)</li>
+	 <li>Introduction to Computational Thinking and Programming for All
+	 	- Instructor/Lecturer (Spring 2015, Yale-NUS)</li>
+	 <li>Quantitative Reasoning - Instructor/Lecturer (Spring 2015, 
+		Yale-NUS)</li>
+	 <li>Scientific Inquiry - Instructor/Lecturer (Fall 2014, Yale-NUS)</li>
+  	<li><a href="https://www.cs.ox.ac.uk/teaching/materials11-12/automatalogicgames/">Automata, Logic, and Games</a> - Co-lecturer (2012, Oxford)
+  	<li><a href="https://www.comlab.ox.ac.uk/teaching/courses/2010-2011/knowledgebases/">Theory of Data and Knowledge Bases</a> - Tutor (2011, Oxford)
+  	</ul>
+</ul>
+</div>
+
+<hr />
+<footer>
+<address>
+  <a href="index.html">Anthony Widjaja Lin</a>
+</address>
+
+<p>Last Modified: October 2019</p>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65589367-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
