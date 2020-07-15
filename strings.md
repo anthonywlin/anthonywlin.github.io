@@ -40,6 +40,9 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
+- [A Decision Procedure for Path Feasibility of String Manipulating Programs with Integer Data Type](https://arxiv.org/abs/2007.06913). In ATVA'20. 
+  (with Taolue Chen, Matt Hague, Denghang Hu, Philipp Ruemmer, and Zhilin Wu)
+- [Monadic Decomposition in Integer Linear Arithmetic](https://arxiv.org/abs/2004.12371). In IJCAR'20. (with Matt Hague, Philipp Ruemmer, and Zhilin Wu)
 - [Probabilistic Bisimulation for Parameterized Systems - with applications to verifying anonymous protocols](papers/cav19.pdf). In CAV'19. (Chih-Duo Hong, Anthony W. Lin Rupak Majumdar, and Philipp Ruemmer)
 - [Monadic Decomposability of Regular Relations](papers/icalp19.pdf).
 . In ICALP'19. (with Pablo Barcelo, Chih-Duo Hong, Xuan Bach Le, Anthony W. Lin,
