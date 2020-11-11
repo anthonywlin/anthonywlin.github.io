@@ -15,7 +15,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - Dr. Muhammad Najib (Postdoc Researcher)
 - Dr. Daniel Stan (Postdoc Researcher)
 - Mr. Chih-Duo Hong (PhD Student)
-- Mr. Oliver Markgraf (Masters Student)
+- Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
 - Dr. Xuan-Bach Le (Postdoc Researcher, now Postdoc at Nanyang Technical Uni)
