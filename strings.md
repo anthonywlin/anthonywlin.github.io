@@ -14,6 +14,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - Dr. Shuanglong Kan (Postdoc Researcher)
 - Dr. Muhammad Najib (Postdoc Researcher)
 - Dr. Daniel Stan (Postdoc Researcher)
+- Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Chih-Duo Hong (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
@@ -40,9 +41,11 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
+- [Parameterized Synthesis with Safety Properties](https://arxiv.org/abs/2009.13459). In APLAS'20. (Oliver Markgraf, Chih-Duo Hong, Anthony W. Lin, Muhammad Najib, and Daniel Neider)
 - [A Decision Procedure for Path Feasibility of String Manipulating Programs with Integer Data Type](https://arxiv.org/abs/2007.06913). In ATVA'20. 
-  (with Taolue Chen, Matt Hague, Denghang Hu, Philipp Ruemmer, and Zhilin Wu)
-- [Monadic Decomposition in Integer Linear Arithmetic](https://arxiv.org/abs/2004.12371). In IJCAR'20. (with Matt Hague, Philipp Ruemmer, and Zhilin Wu)
+  (Taolue Chen, Matt Hague, Denghang Hu, Anthony Lin, Philipp Ruemmer, and Zhilin Wu)
+- [Monadic Decomposition in Integer Linear Arithmetic](https://arxiv.org/abs/2004.12371). In IJCAR'20. (Matthew Hague, Anthony Lin, Philipp Ruemmer, and Zhilin Wu)
+- [Learning-Based Synthesis of Safety Controllers](https://arxiv.org/abs/1901.06801). In FMCAD'19. (Daniel Neider and Oliver Markgraf)
 - [Probabilistic Bisimulation for Parameterized Systems - with applications to verifying anonymous protocols](papers/cav19.pdf). In CAV'19. (Chih-Duo Hong, Anthony W. Lin Rupak Majumdar, and Philipp Ruemmer)
 - [Monadic Decomposability of Regular Relations](papers/icalp19.pdf).
 . In ICALP'19. (with Pablo Barcelo, Chih-Duo Hong, Xuan Bach Le, Anthony W. Lin,
@@ -55,7 +58,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - [Complexity Analysis of Tree Share Structure](papers/aplas18.pdf). In 
   APLAS'18. (Xuan-Bach Le, Aquinas Hobor, and Anthony W. Lin)
 - [Quadratic Word Equations with Length Constraints, Counter Systems, and Presburger Arithmetic with Divisibility](papers/atva18.pdf). In ATVA'18. (Anthony W.
-  Lin and Rupak Majumdar)</li>
+  Lin and Rupak Majumdar)
 - [What is Decidable About String Constraints with ReplaceAll Function](papers/popl18-replace.pdf), In POPL'18. (Taolue Chen, Yan Chen, Matthew Hague, Anthony
 W. Lin and Zhilin Wu)
 - [String Constraints with Concatenation and Transducers Solved Efficiently](papers/popl18-efficient.pdf), In POPL'18. (Lukas Holik, Petr Janku, Anthony W.
