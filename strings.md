@@ -41,6 +41,9 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
+- [Regular Model Checking Approach to Knowledge Reasoning over Parameterized
+  Systems](https://arxiv.org/pdf/2102.04361.pdf). In AAMAS'21. (Daniel Stan and
+  Anthony W. Lin)
 - [Parameterized Synthesis with Safety Properties](https://arxiv.org/abs/2009.13459). In APLAS'20. (Oliver Markgraf, Chih-Duo Hong, Anthony W. Lin, Muhammad Najib, and Daniel Neider)
 - [A Decision Procedure for Path Feasibility of String Manipulating Programs with Integer Data Type](https://arxiv.org/abs/2007.06913). In ATVA'20. 
   (Taolue Chen, Matt Hague, Denghang Hu, Anthony Lin, Philipp Ruemmer, and Zhilin Wu)
