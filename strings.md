@@ -41,6 +41,11 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
+- 
+[Quadratic Word Equations with Length Constraints, Counter Systems, and
+Presburger Arithmetic with Divisibility](https://arxiv.org/abs/2007.15478).
+Accepted in LMCS in 2021. (Anthony W. Lin and Rupak Majumdar). 
+[Extended abstract](papers/atva18.pdf) was published in ATVA'18</li>
 - [Regular Model Checking Approach to Knowledge Reasoning over Parameterized
   Systems](https://arxiv.org/pdf/2102.04361.pdf). In AAMAS'21. (Daniel Stan and
   Anthony W. Lin)
@@ -60,8 +65,6 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   (Taolue Chen, Matt Hague, Anthony W. Lin, Philipp R&uuml;mmer, and Zhilin Wu)
 - [Complexity Analysis of Tree Share Structure](papers/aplas18.pdf). In 
   APLAS'18. (Xuan-Bach Le, Aquinas Hobor, and Anthony W. Lin)
-- [Quadratic Word Equations with Length Constraints, Counter Systems, and Presburger Arithmetic with Divisibility](papers/atva18.pdf). In ATVA'18. (Anthony W.
-  Lin and Rupak Majumdar)
 - [What is Decidable About String Constraints with ReplaceAll Function](papers/popl18-replace.pdf), In POPL'18. (Taolue Chen, Yan Chen, Matthew Hague, Anthony
 W. Lin and Zhilin Wu)
 - [String Constraints with Concatenation and Transducers Solved Efficiently](papers/popl18-efficient.pdf), In POPL'18. (Lukas Holik, Petr Janku, Anthony W.
