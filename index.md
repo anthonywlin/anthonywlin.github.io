@@ -70,3 +70,8 @@ page](publications.html) contains pretty much all my published papers.
 - [CAV 2020](http://i-cav.org/2020/)
 - Pre 2020: PPDP'19, ATVA'19, VMCAI'19, CAV'19 Verification Mentoring Workshop,
   LICS'18, ICALP'17, PSI,17, FoSSaCS'17, APLAS'16, PSI'15, LICS'15, INFINITY'13
+
+## Teaching
+I regularly offer courses, seminars, and projects on computational logic, 
+verification, and automata. Please check 
+[the group's official website](http://arg.cs.uni-kl.de/teaching/).
