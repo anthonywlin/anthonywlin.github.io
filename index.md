@@ -17,13 +17,6 @@ Kaiserslautern, Germany](https://www.informatik.uni-kl.de/)
   - (2016 - 2019) Associate Professor in Programming Languages at [Oxford University Department of Computer Science](https://www.cs.ox.ac.uk/) and Governing Body Fellow at [Kellogg College](https://www.kellogg.ox.ac.uk/).
   - (2014 - 2016) assistant professor at [Yale-NUS, Singapore](https://www.yale-nus.edu.sg).
   - (2010-2013) EPSRC Postdoctoral Research Fellow at Oxford University hosted by [Marta Kwiatkowska](http://www.cs.ox.ac.uk/marta.kwiatkowska/)
-  <!--<li>Postdoctoral experience:
-  	<ul>
-		<li> EPSRC Postdoctoral Research Fellow at Oxford 
-  		<li> two short postdoc stints:
-		at Academia Sinica, Taiwan, (Oct 2013 - Mar 2014) 
-		and at SUTD (January - May 2014).
-	</ul>!-->
 - Completed PhD in Informatics at University of Edinburgh in 2010 under [Leonid
   Libkin](https://homepages.inf.ed.ac.uk/libkin/) (supervisor) and [Richard Mayr](https://homepages.inf.ed.ac.uk/rmayr/) (co-advisor).
 
@@ -60,13 +53,15 @@ page](publications.html) contains pretty much all my published papers.
 
 ## Events
 ### PC chair/organizer:
-- RP'22 (co-chaired with Georg Zetzsche
+- RP'22 (co-chaired with Georg Zetzsche)
 - [APLAS'19](https://conf.researchr.org/home/aplas-2019)
 - [MOSCA (Meetings on String Constraints and Applications) 2019](https://mosca19.github.io/) (co-chaired with Loris D'Antoni and Philipp Rümmer)
 - [ICECCS'18](http://formal-analysis.com/iceccs/2018/) (co-chaired with Jun Sun)
 - [IMS Workshop Series on Formal Verification](https://www2.ims.nus.edu.sg/Programs/016auto/index.php) (co-chaired with Luke Ong)
+
 ### Executive Committee Member: 
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
+
 ### Program committee member: 
 - [ATVA 2022](https://atva-conference.org/2022/)
 - [CSL 2022](http://csl2022.uni-goettingen.de/)
