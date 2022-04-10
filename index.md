@@ -28,7 +28,7 @@ include software verification, computer security, program synthesis,
 querying graph databases, and interpretable machine learning. My [publication
 page](publications.html) contains pretty much all my published papers.
 
-## Some Recent Tools (more to be added soon)
+Some recent tools (more to be added soon):
 - [OSTRICH](https://github.com/uuverifiers/ostrich/) - a string solver using a
   backward computation paradigm.
 - [SLOTH](https://github.com/uuverifiers/sloth/wiki) - a string solver that
@@ -53,7 +53,7 @@ page](publications.html) contains pretty much all my published papers.
 
 ## Events
 ### PC chair/organizer:
-- RP'22 (co-chaired with Georg Zetzsche)
+- [RP'22](https://rp2022.mpi-sws.org/) (co-chaired with Georg Zetzsche)
 - [APLAS'19](https://conf.researchr.org/home/aplas-2019)
 - [MOSCA (Meetings on String Constraints and Applications) 2019](https://mosca19.github.io/) (co-chaired with Loris D'Antoni and Philipp Rümmer)
 - [ICECCS'18](http://formal-analysis.com/iceccs/2018/) (co-chaired with Jun Sun)
