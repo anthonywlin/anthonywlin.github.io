@@ -2,6 +2,7 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
+- Two papers appearing in LICS'22.
 - A [new graph database paper](papers/pods22.pdf) appearing in PODS'22.
 - I am delighted to be invited to present at [SynCoP'22](https://project.inria.fr/syncop22/). The slides can be found [here](slides/syncop22.pdf).
 - [Two new papers](publications.html) on string solving appearing in CPP'22 
