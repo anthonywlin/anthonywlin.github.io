@@ -41,11 +41,27 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
+- Reasoning on Data Words over Numeric Domains. In Logic in Computer Science 
+    (LICS), 2022. (Diego Figueira and Anthony W. Lin).
+- Ramsey Quantifiers over Automatic Structures: Complexity and Applications to 
+    Verification. In Logic in Computer Science (LICS), 2022. (Pascal 
+    Bergstraesser, Moses Ganardi, Anthony W. Lin and Georg Zetzsche).
+- [Data Path Queries over Embedded Graph Databases](papers/pods22.pdf). In 
+  Principles of Database Systems (PODS), 2022. (Diego Figueira, Artur Jeż,
+  and Anthony W. Lin)
+- [CertiStr: A Certified String Solver](papers/cpp22.pdf). In CPP 2022.  
+  (Joint with Shuanglong Kan, Philipp Ruemmer, and Micha Schrader)
+    [Distinguished Paper Award] 
+- [Solving String Constraints With Regex-Dependent Functions Through Transducers With Priorities And Variables](https://arxiv.org/abs/2111.04298). In POPL 
+  2022. (Joint with T. Chen, M. Hague, Z. Han, D. Hu, S. Kan, A. Lamas, A. Lin,
+  P. Ruemmer, and Z. Wu)
+- [Regular Model Checking Revisited](https://arxiv.org/abs/2005.00990). In 
+  Bengt Jonsson's Festschrift, 2022. (Anthony Lin and Philipp Ruemmer).
 - 
 [Quadratic Word Equations with Length Constraints, Counter Systems, and
 Presburger Arithmetic with Divisibility](https://arxiv.org/abs/2007.15478).
 Accepted in LMCS in 2021. (Anthony W. Lin and Rupak Majumdar). 
-[Extended abstract](papers/atva18.pdf) was published in ATVA'18</li>
+[Extended abstract](papers/atva18.pdf) was published in ATVA'18.
 - [Regular Model Checking Approach to Knowledge Reasoning over Parameterized
   Systems](https://arxiv.org/pdf/2102.04361.pdf). In AAMAS'21. (Daniel Stan and
   Anthony W. Lin)
