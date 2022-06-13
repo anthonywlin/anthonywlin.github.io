@@ -35,6 +35,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 ## Tools
 - [OSTRICH](https://github.com/pruemmer/ostrich). 
 - [SLOTH](https://github.com/uuverifiers/sloth/wiki)
+- [CertiStr](https://github.com/uuverifiers/ostrich/tree/CertiStr)
 
 ## Press
 - AV-SMP was featured in Inspired Research Newsletter Summer 2018 - Issue 12.
@@ -52,8 +53,8 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - [CertiStr: A Certified String Solver](papers/cpp22.pdf). In CPP 2022.  
   (Joint with Shuanglong Kan, Philipp Ruemmer, and Micha Schrader)
     [Distinguished Paper Award] 
-- [Solving String Constraints With Regex-Dependent Functions Through Transducers With Priorities And Variables](https://arxiv.org/abs/2111.04298). In POPL 
-  2022. (Joint with T. Chen, M. Hague, Z. Han, D. Hu, S. Kan, A. Lamas, A. Lin,
+- [Solving String Constraints With Regex-Dependent Functions Through Transducers With Priorities And Variables](https://arxiv.org/abs/2111.04298). 
+  In POPL 2022. (Joint with T. Chen, M. Hague, Z. Han, D. Hu, S. Kan, A. Lamas, A. Lin,
   P. Ruemmer, and Z. Wu)
 - [Regular Model Checking Revisited](https://arxiv.org/abs/2005.00990). In 
   Bengt Jonsson's Festschrift, 2022. (Anthony Lin and Philipp Ruemmer).
