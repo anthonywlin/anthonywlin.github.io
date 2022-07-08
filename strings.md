@@ -42,10 +42,11 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
   [Here](papers/inspired18.pdf) for the excerpt. [Here](https://www.cs.ox.ac.uk/inspiredresearch/InspiredResearchsummer2018.pdf) for the original publication.
 
 ## Publications
-- Reasoning on Data Words over Numeric Domains. In Logic in Computer Science 
+- [Reasoning on Data Words over Numeric Domains](papers/lics22a.pdf). In Logic in Computer Science 
     (LICS), 2022. (Diego Figueira and Anthony W. Lin).
-- Ramsey Quantifiers over Automatic Structures: Complexity and Applications to 
-    Verification. In Logic in Computer Science (LICS), 2022. (Pascal 
+- [Ramsey Quantifiers over Automatic Structures: Complexity and Applications to 
+    Verification](https://arxiv.org/pdf/2205.09015.pdf). In Logic in Computer 
+    Science (LICS), 2022. (Pascal 
     Bergstraesser, Moses Ganardi, Anthony W. Lin and Georg Zetzsche).
 - [Data Path Queries over Embedded Graph Databases](papers/pods22.pdf). In 
   Principles of Database Systems (PODS), 2022. (Diego Figueira, Artur Jeż,
