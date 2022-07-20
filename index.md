@@ -39,17 +39,18 @@ Some recent tools (more to be added soon):
 ### Current Members
 - Dr. Chih-Duo Hong (Postdoc Researcher)
 - Dr. Shuanglong Kan (Postdoc Researcher)
-- Dr. Muhammad Najib (Postdoc Researcher)
 - Dr. Daniel Stan (Postdoc Researcher)
 - Dr. Di-De Yen (Postdoc Researcher)
 - Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
-- Mr. Chih-Duo Hong (PhD student graduated in 2022)
-- Dr. Xuan-Bach Le (PhD student graduated in 2018, Postdoc Researcher, now 
+- Mr. Chih-Duo Hong (PhD student completed in 2022)
+- Dr. Xuan-Bach Le (PhD student completed in 2018, now 
   Postdoc at Nanyang Technical Uni, Singapore)
-- Dr. Reino Niskanen (Postdoc Researcher, now Lecturer at Liverpool John Moores
+- Dr. Muhammad Najib (Postdoc Researcher completed in 2022, now Lecturer at
+    Heriot-Watt University, UK)
+- Dr. Reino Niskanen (Postdoc Researcher completed in 2018, now Lecturer at Liverpool John Moores
   University, UK)
 
 ## Events

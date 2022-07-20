@@ -6,21 +6,23 @@ The purpose of the project is to study foundational issues concerning
 string constraint solving, and their applications to verification of
 string-manipulating programs. This project is currently hosted at 
 TU Kaiserslautern, and was hosted from November 2018 to February 2020 at 
-University of Oxford. Check out our string solver [OSTRICH](https://github.com/pruemmer/ostrich).
+University of Oxford. Check out our string solver [OSTRICH](https://github.com/uuverifiers/ostrich/).
 
 ## Members
 ### Current Members
 - Prof. Anthony W. Lin (Principal Investigator)
 - Dr. Shuanglong Kan (Postdoc Researcher)
-- Dr. Muhammad Najib (Postdoc Researcher)
 - Dr. Daniel Stan (Postdoc Researcher)
 - Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Chih-Duo Hong (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
-- Dr. Xuan-Bach Le (Postdoc Researcher, now Postdoc at Nanyang Technical Uni)
-- Dr. Reino Niskanen (Postdoc Researcher, now Lecturer at Jesus College, Oxford)
+- Dr. Xuan-Bach Le (Postdoc Researcher, now Postdoc at Nanyang Technical Uni,
+  Singapore)
+- Dr. Muhammad Najib (Postdoc Researcher, now Lecturer at Heriot-Watt Uni, UK)
+- Dr. Reino Niskanen (Postdoc Researcher, now Lecturer at Liverpool John Moores
+  University, UK)
 
 ## Collaborators
 - Prof. Pablo Barcelo (Institute for Mathematical and Computational Engineering, PUC Chile & IMFD Chile)
@@ -33,7 +35,7 @@ University of Oxford. Check out our string solver [OSTRICH](https://github.com/p
 - Dr. Zhilin Wu (Chinese University of Science, China)
 
 ## Tools
-- [OSTRICH](https://github.com/pruemmer/ostrich). 
+- [OSTRICH](https://github.com/uuverifiers/ostrich/). 
 - [SLOTH](https://github.com/uuverifiers/sloth/wiki)
 - [CertiStr](https://github.com/uuverifiers/ostrich/tree/CertiStr)
 
