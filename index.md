@@ -65,7 +65,8 @@ Some recent tools (more to be added soon):
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- ICALP'23
+- [ICALP'23](https://icalp2023.cs.upb.de/cms/)
+- VMCAI'23
 - [ATVA 2022](https://atva-conference.org/2022/)
 - [CSL 2022](http://csl2022.uni-goettingen.de/)
 - [POPL 2022](https://popl22.sigplan.org/)
