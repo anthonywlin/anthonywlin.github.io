@@ -39,7 +39,6 @@ Some recent tools (more to be added soon):
 ### Current Members
 - Dr. Chih-Duo Hong (Postdoc Researcher)
 - Dr. Shuanglong Kan (Postdoc Researcher)
-- Dr. Daniel Stan (Postdoc Researcher)
 - Dr. Di-De Yen (Postdoc Researcher)
 - Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
@@ -52,6 +51,8 @@ Some recent tools (more to be added soon):
     Heriot-Watt University, UK)
 - Dr. Reino Niskanen (Postdoc Researcher completed in 2018, now Lecturer at Liverpool John Moores
   University, UK)
+- Dr. Daniel Stan (Postdoc Researcher completed in 2022, now Assistant Professor
+  at Epita, France)
 
 ## Events
 ### PC chair/organizer:
@@ -65,8 +66,9 @@ Some recent tools (more to be added soon):
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
+- CAV'23
 - [ICALP'23](https://icalp2023.cs.upb.de/cms/)
-- VMCAI'23
+- [VMCAI'23](https://popl23.sigplan.org/home/VMCAI-2023)
 - [ATVA 2022](https://atva-conference.org/2022/)
 - [CSL 2022](http://csl2022.uni-goettingen.de/)
 - [POPL 2022](https://popl22.sigplan.org/)
