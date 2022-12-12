@@ -66,7 +66,8 @@ Some recent tools (more to be added soon):
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- CAV'23
+- TACAS'24
+- [CAV'23](http://www.i-cav.org/2023/call-for-papers/)
 - [ICALP'23](https://icalp2023.cs.upb.de/cms/)
 - [VMCAI'23](https://popl23.sigplan.org/home/VMCAI-2023)
 - [ATVA 2022](https://atva-conference.org/2022/)
