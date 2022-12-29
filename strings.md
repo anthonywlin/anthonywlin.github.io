@@ -4,20 +4,24 @@ This is the page for the currently active project AV-SMP supported by ERC
 Starting Grant.
 The purpose of the project is to study foundational issues concerning
 string constraint solving, and their applications to verification of
-string-manipulating programs. This project is currently hosted at 
-TU Kaiserslautern, and was hosted from November 2018 to February 2020 at 
-University of Oxford. Check out our string solver [OSTRICH](https://github.com/uuverifiers/ostrich/).
+string-manipulating programs. This project was hosted from November 2018 to 
+February 2020 at University of Oxford, and from March 2021 to October 2022
+at TU Kaiserslautern. Check out our string solver 
+[OSTRICH](https://github.com/uuverifiers/ostrich/). OSTRICH was ranked #1 in
+SMT Competition 2022 for the category (unsat, string theory, largest 
+contribution); see [here](https://smt-comp.github.io/2022/slides-smtworkshop.pdf). 
 
 ## Members
 ### Current Members
 - Prof. Anthony W. Lin (Principal Investigator)
-- Dr. Shuanglong Kan (Postdoc Researcher)
-- Dr. Daniel Stan (Postdoc Researcher)
-- Mr. Pascal Bergstraßer (PhD Student)
-- Mr. Chih-Duo Hong (PhD Student)
+- Dr. Pascal Bergstraßer (PhD Student)
+- Mr. Chih-Duo Hong (Postdoc Researcher)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
+- Dr. Daniel Stan (Postdoc Researcher, now tenured assistant professor at 
+  Epita, France)
+- Dr. Shuanglong Kan (Postdoc Researcher, now researcher at Certik)
 - Dr. Xuan-Bach Le (Postdoc Researcher, now Postdoc at Nanyang Technical Uni,
   Singapore)
 - Dr. Muhammad Najib (Postdoc Researcher, now Lecturer at Heriot-Watt Uni, UK)
