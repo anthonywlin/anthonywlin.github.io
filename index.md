@@ -38,13 +38,14 @@ Some recent tools (more to be added soon):
 ## Research Group Members
 ### Current Members
 - Dr. Chih-Duo Hong (Postdoc Researcher)
-- Dr. Shuanglong Kan (Postdoc Researcher)
 - Dr. Di-De Yen (Postdoc Researcher)
 - Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
-- Mr. Chih-Duo Hong (PhD student completed in 2022)
+- Dr. Chih-Duo Hong (PhD student completed in 2022)
+- Dr. Shuanglong Kan (Postdoc Researcher completed in 2022, now Researcher at
+  Certik)
 - Dr. Xuan-Bach Le (PhD student completed in 2018, now 
   Postdoc at Nanyang Technical Uni, Singapore)
 - Dr. Muhammad Najib (Postdoc Researcher completed in 2022, now Lecturer at
