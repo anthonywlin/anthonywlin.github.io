@@ -15,7 +15,8 @@
 Starting Grant Fellow, and Max-Planck Fellow at [Technical University of 
 Kaiserslautern, Germany](https://www.informatik.uni-kl.de/)
 - Previously:
-  - (2016 - 2019) Associate Professor in Programming Languages at [Oxford University Department of Computer Science](https://www.cs.ox.ac.uk/) and Governing Body Fellow at [Kellogg College](https://www.kellogg.ox.ac.uk/).
+  - (2016 - 2019) Associate Professor in Programming Languages at [Oxford University Department of Computer Science](https://www.cs.ox.ac.uk/) and Governing Body Fellow at [Kellogg College](https://www.kellogg.ox.ac.uk/). I taught at the
+[MSc Software Engineering Programme](https://www.cs.ox.ac.uk/softeng/).
   - (2014 - 2016) assistant professor at [Yale-NUS, Singapore](https://www.yale-nus.edu.sg).
   - (2010-2013) EPSRC Postdoctoral Research Fellow at Oxford University hosted by [Marta Kwiatkowska](http://www.cs.ox.ac.uk/marta.kwiatkowska/)
 - Completed PhD in Informatics at University of Edinburgh in 2010 under [Leonid
