@@ -3,7 +3,7 @@
 
 ## NEWS
 - I am delighted to have received an 
-<img src="ERC_logo.png" width=10% height=10%>
+<img src="https://upload.wikimedia.org/wikipedia/en/e/e9/European_Research_Council_logo.svg" width=10% height=10%>
 [Consolidator Grant](https://erc.europa.eu/news-events/news/erc-2022-consolidator-grants-results) on Logic and
   Automata over Sequences with Data. I will be looking for PhD Students and
   Postdoc Researchers soon. Please let me know if you are interested.
