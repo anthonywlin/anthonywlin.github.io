@@ -2,8 +2,7 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
-- I am delighted to have received an 
-![Image](ERC_logo_resized.png)
+- ![Image](ERC_logo_small.jpeg) I am delighted to have received an ERC
 [Consolidator Grant](https://erc.europa.eu/news-events/news/erc-2022-consolidator-grants-results) on Logic and
   Automata over Sequences with Data. I will be looking for PhD Students and
   Postdoc Researchers soon. Please let me know if you are interested.
