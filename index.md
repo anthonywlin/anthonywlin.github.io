@@ -2,6 +2,7 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
+- Our string solver OSTRICH won [QF_S (Single Query Track) in SMT-COMP 2023](https://smt-comp.github.io/2023/results/qf-s-single-query)!
 - ![Image](ERC_logo_small.jpeg) I am delighted to have received an ERC
 [Consolidator Grant](https://erc.europa.eu/news-events/news/erc-2022-consolidator-grants-results) on Logic and
   Automata over Sequences with Data. I will be looking for PhD Students and
@@ -44,6 +45,8 @@ Some recent tools (more to be added soon):
 ### Current Members
 - Dr. Di-De Yen (Postdoc Researcher)
 - Mr. Pascal Bergstraßer (PhD Student)
+- Mr. David Eipper (PhD Student)
+- Mr. Hongjian Jiang (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
@@ -72,7 +75,9 @@ Some recent tools (more to be added soon):
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- TACAS'24
+- LICS'24
+- STACS'24
+- [TACAS'24](https://etaps.org/2024/conferences/tacas/)
 - [CAV'23](http://www.i-cav.org/2023/call-for-papers/)
 - [ICALP'23](https://icalp2023.cs.upb.de/cms/)
 - [VMCAI'23](https://popl23.sigplan.org/home/VMCAI-2023)
