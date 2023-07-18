@@ -35,11 +35,10 @@ include software verification, computer security, program synthesis,
 querying graph databases, and interpretable machine learning. My [publication
 page](publications.html) contains pretty much all my published papers.
 
-Some recent tools (more to be added soon):
-- [OSTRICH](https://github.com/uuverifiers/ostrich/) - a string solver using a
-  backward computation paradigm.
-- [SLOTH](https://github.com/uuverifiers/sloth/wiki) - a string solver that
-  exploits alternating finite automata and IC3.
+Selected Tool:
+- [OSTRICH](https://github.com/uuverifiers/ostrich/) - our string solver
+  supporting complex constraints (concatenation, real-world regexes, lengths, 
+  transducers) that primarily exploit regular constraint propagation.
 
 ## Research Group Members
 ### Current Members
