@@ -1,26 +1,33 @@
 # Algorithmic Verification of String-Manipulating Programs (AV-SMP)
 
-This is the page for the currently active project AV-SMP supported by ERC 
-Starting Grant.
+This is the page for our project AV-SMP. It was supported by ERC Starting 
+Grant (2017 - 2022) and by Amazon Research Award (2021). The project is 
+still very much active.
+
 The purpose of the project is to study foundational issues concerning
 string constraint solving, and their applications to verification of
 string-manipulating programs. This project was hosted from November 2018 to 
 February 2020 at University of Oxford, and from March 2021 to October 2022
-at TU Kaiserslautern. Check out our string solver 
-[OSTRICH](https://github.com/uuverifiers/ostrich/). OSTRICH was ranked #1 in
+at TU Kaiserslautern. 
+
+Check out our string solver [OSTRICH](https://github.com/uuverifiers/ostrich/) 
+supporting complex string constraints (including transducers). OSTRICH was 
+ranked #1 in
 SMT Competition 2022 for the category (unsat, string theory, largest 
-contribution); see [here](https://smt-comp.github.io/2022/slides-smtworkshop.pdf). 
+contribution); see [here](https://smt-comp.github.io/2022/slides-smtworkshop.pdf). OSTRICH won 
+[QF_S in SMT-COMP 
+2023](https://smt-comp.github.io/2023/results/qf-s-single-query)!
 
 ## Members
 ### Current Members
 - Prof. Anthony W. Lin (Principal Investigator)
-- Dr. Pascal Bergstraßer (PhD Student)
-- Mr. Chih-Duo Hong (Postdoc Researcher)
+- Mr. Pascal Bergstraßer (PhD Student)
 - Mr. Oliver Markgraf (PhD Student)
 
 ### Past Members
 - Dr. Daniel Stan (Postdoc Researcher, now tenured assistant professor at 
   Epita, France)
+- Mr. Chih-Duo Hong (Postdoc Researcher)
 - Dr. Shuanglong Kan (Postdoc Researcher, now researcher at Certik)
 - Dr. Xuan-Bach Le (Postdoc Researcher, now Postdoc at Nanyang Technical Uni,
   Singapore)
