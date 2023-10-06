@@ -74,8 +74,9 @@ Selected Tool:
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- LICS'24
-- STACS'24
+- [CAV'24](http://i-cav.org/)
+- [LICS'24](https://lics.siglog.org/lics24/)
+- [STACS'24](https://stacs2024.limos.fr/)
 - [TACAS'24](https://etaps.org/2024/conferences/tacas/)
 - [CAV'23](http://www.i-cav.org/2023/call-for-papers/)
 - [ICALP'23](https://icalp2023.cs.upb.de/cms/)
