@@ -20,7 +20,8 @@
   - (2010-2013) EPSRC Postdoctoral Research Fellow at Oxford University hosted by [Marta Kwiatkowska](http://www.cs.ox.ac.uk/marta.kwiatkowska/)
 - Completed PhD in Informatics at University of Edinburgh in 2010 under [Leonid
   Libkin](https://homepages.inf.ed.ac.uk/libkin/) (supervisor) and [Richard Mayr](https://homepages.inf.ed.ac.uk/rmayr/) (co-advisor).
-- Awards (selected): Amazon Research Award (2021), ERC Starting Grant (2017), 
+- Awards (selected): ERC Consolidator Grant (2023), Amazon Research Award 
+    (2021), ERC Starting Grant (2017), 
     Google Faculty Award (2017), LICS Kleene Award (2010)
 - Where else I studied: BSc (Honours) at Melbourne University and MSc at
   University of Toronto
