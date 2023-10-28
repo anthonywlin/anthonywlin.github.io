@@ -2,23 +2,17 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
+- I will be giving a [tutorial on string solving at POPL'24](https://popl24.sigplan.org/details/POPL-2024-tutorialfest/3/String-Solving-for-Verification)
 - Our string solver OSTRICH won [QF_S (Single Query Track) in SMT-COMP 2023](https://smt-comp.github.io/2023/results/qf-s-single-query)!
 - ![Image](ERC_logo_small.jpeg) I am delighted to have received an ERC
 [Consolidator Grant](https://erc.europa.eu/news-events/news/erc-2022-consolidator-grants-results) on Logic and
   Automata over Sequences with Data. I will be looking for PhD Students and
   Postdoc Researchers soon. Please let me know if you are interested.
-- Two papers appearing in LICS'22.
-- A [new graph database paper](papers/pods22.pdf) appearing in PODS'22.
-- I am delighted to be invited to present at [SynCoP'22](https://project.inria.fr/syncop22/). The slides can be found [here](slides/syncop22.pdf).
-- [Two new papers](publications.html) on string solving appearing in CPP'22 
-(Distinguished Paper Award) and POPL'22.
-- Aug'21: Amazon Research Award - thank you for the generous support
-- I am delighted to be invited to present at [TPSS'21](https://tpss-workshop.github.io/). Here are my [slides](slides/TPSS21.pdf).
 
 ## Background
-- Professor in Theoretical Computer Science (Automated Reasoning), ERC 
-Starting Grant Fellow, and Max-Planck Fellow at [Technical University of 
-Kaiserslautern, Germany](https://www.informatik.uni-kl.de/)
+- Professor in Theoretical Computer Science (Automated Reasoning) and 
+  Max-Planck Fellow at [Technical University of 
+  Kaiserslautern, Germany](https://www.informatik.uni-kl.de/)
 - Previously:
   - (2016 - 2019) Associate Professor in Programming Languages at [Oxford University Department of Computer Science](https://www.cs.ox.ac.uk/) and Governing Body Fellow at [Kellogg College](https://www.kellogg.ox.ac.uk/). I taught at the
 [MSc Software Engineering Programme](https://www.cs.ox.ac.uk/softeng/).
@@ -26,6 +20,9 @@ Kaiserslautern, Germany](https://www.informatik.uni-kl.de/)
   - (2010-2013) EPSRC Postdoctoral Research Fellow at Oxford University hosted by [Marta Kwiatkowska](http://www.cs.ox.ac.uk/marta.kwiatkowska/)
 - Completed PhD in Informatics at University of Edinburgh in 2010 under [Leonid
   Libkin](https://homepages.inf.ed.ac.uk/libkin/) (supervisor) and [Richard Mayr](https://homepages.inf.ed.ac.uk/rmayr/) (co-advisor).
+- Where else I studied: BSc (Honours) at Melbourne University and MSc at
+  University of Toronto
+- Where I am from: I am Australian and was born in Indonesia
 
 ## Research Interests
 I am interested in automated reasoning and logic/automata techniques, especially
@@ -42,11 +39,11 @@ Selected Tool:
 
 ## Research Group Members
 ### Current Members
-- Dr. Di-De Yen (Postdoc Researcher)
-- Mr. Pascal Bergstraßer (PhD Student)
-- Mr. David Eipper (PhD Student)
-- Mr. Hongjian Jiang (PhD Student)
-- Mr. Oliver Markgraf (PhD Student)
+- Pascal Bergstraßer (PhD Student)
+- Eva Gonzalez Garcia (PhD Student)
+- Hongjian Jiang (PhD Student)
+- Oliver Markgraf (PhD Student)
+- Dr. Rodrigo Raya (Postdoc)
 
 ### Past Members
 - Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
@@ -61,6 +58,8 @@ Selected Tool:
   University, UK)
 - Dr. Daniel Stan (Postdoc Researcher completed in 2022, now Assistant Professor
   at Epita, France)
+- Dr. Di-De Yen (Postdoc Researcher completed in 2023, now postdoc at Academia
+  Sinica, Taipei)
 
 ## Events
 ### PC chair/organizer:
