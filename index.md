@@ -76,7 +76,9 @@ Selected Tool:
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- [CAV'24](http://i-cav.org/)
+- FoSSaCS'25
+- [Highlights'24](https://highlights-conference.org/2024/cfp)
+- [CAV'24](http://i-cav.org/) [Area chair of automata theory]
 - [LICS'24](https://lics.siglog.org/lics24/)
 - [STACS'24](https://stacs2024.limos.fr/)
 - [TACAS'24](https://etaps.org/2024/conferences/tacas/)
