@@ -2,6 +2,8 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
+- I will be chairing the PC of CAV'26 (together with Eva Darulova and Philipp 
+  Ruemmer)
 - I will be giving a [tutorial on string solving at POPL'24](https://popl24.sigplan.org/details/POPL-2024-tutorialfest/3/String-Solving-for-Verification)
 - Our string solver OSTRICH won [QF_S (Single Query Track) in SMT-COMP 2023](https://smt-comp.github.io/2023/results/qf-s-single-query)!
 - ![Image](ERC_logo_small.jpeg) I am delighted to have received an ERC
@@ -28,12 +30,12 @@
 - Where I am from: I am Australian and was born in Indonesia
 
 ## Research Interests
-I am interested in automated reasoning and logic/automata techniques, especially
-constraint solving (particularly over [strings](strings.md)) and 
-learning/synthesis methods. Applications of interests
-include software verification, computer security, program synthesis,
-querying graph databases, and interpretable machine learning. My [publication
-page](publications.html) contains pretty much all my published papers.
+I am interested in automated reasoning (particularly over 
+[strings](strings.md)), formal language theory, and learning/synthesis. 
+Applications of interests include software verification, program synthesis,
+querying graph databases, machine learning, and computer security. My 
+[publication page](publications.html) contains pretty much all my published 
+papers.
 
 Selected Tool:
 - [OSTRICH](https://github.com/uuverifiers/ostrich/) - our string solver
@@ -66,6 +68,7 @@ Selected Tool:
 
 ## Events
 ### PC chair/organizer:
+- CAV'24 (co-chaired with Eva Darulova and Philipp Ruemmer)
 - [RP'22](https://rp2022.mpi-sws.org/) (co-chaired with Georg Zetzsche)
 - [APLAS'19](https://conf.researchr.org/home/aplas-2019)
 - [MOSCA (Meetings on String Constraints and Applications) 2019](https://mosca19.github.io/) (co-chaired with Loris D'Antoni and Philipp Rümmer)
