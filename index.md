@@ -68,7 +68,7 @@ Selected Tool:
 
 ## Events
 ### PC chair/organizer:
-- CAV'24 (co-chaired with Eva Darulova and Philipp Ruemmer)
+- CAV'26 (co-chaired with Eva Darulova and Philipp Ruemmer)
 - [RP'22](https://rp2022.mpi-sws.org/) (co-chaired with Georg Zetzsche)
 - [APLAS'19](https://conf.researchr.org/home/aplas-2019)
 - [MOSCA (Meetings on String Constraints and Applications) 2019](https://mosca19.github.io/) (co-chaired with Loris D'Antoni and Philipp Rümmer)
