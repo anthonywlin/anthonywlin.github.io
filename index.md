@@ -31,11 +31,11 @@
 
 ## Research Interests
 I am interested in automated reasoning (particularly over 
-[strings](strings.md)), formal language theory, and learning/synthesis. 
-Applications of interests include software verification, program synthesis,
-querying graph databases, machine learning, and computer security. My 
-[publication page](publications.html) contains pretty much all my published 
-papers.
+[strings](strings.md)), formal language theory, learning/synthesis, and
+foundations of machine learning. Applications of interests include software 
+verification, program synthesis, querying graph databases, machine learning, 
+and computer security. My [publication page](publications.html) contains 
+pretty much all my published papers.
 
 Selected Tool:
 - [OSTRICH](https://github.com/uuverifiers/ostrich/) - our string solver
@@ -46,9 +46,9 @@ Selected Tool:
 ### Current Members
 - Pascal Bergstraßer (PhD Student)
 - Eva Gonzalez Garcia (PhD Student)
+- Moritz Graf (PhD Student)
 - Hongjian Jiang (PhD Student)
 - Oliver Markgraf (PhD Student)
-- Dr. Rodrigo Raya (Postdoc)
 
 ### Past Members
 - Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
@@ -61,6 +61,8 @@ Selected Tool:
     Heriot-Watt University, UK)
 - Dr. Reino Niskanen (Postdoc Researcher completed in 2018, now Lecturer at Liverpool John Moores
   University, UK)
+- Dr. Rodrigo Raya (Postdoc Researcher completed in 2024, now Assistant
+  Professor at Polytechnic University of Madrid, Spain)
 - Dr. Daniel Stan (Postdoc Researcher completed in 2022, now Assistant Professor
   at Epita, France)
 - Dr. Di-De Yen (Postdoc Researcher completed in 2023, now postdoc at Academia
@@ -79,9 +81,10 @@ Selected Tool:
 - [Asian Association for Foundation of Software](http://www.cs.tsukuba.ac.jp/~kam/AAFS/)
 
 ### Program committee member: 
-- FoSSaCS'25
+- [CAV'25](https://conferences.i-cav.org/2025/cfp/) [Area chair]
+- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/)
 - [Highlights'24](https://highlights-conference.org/2024/cfp)
-- [CAV'24](http://i-cav.org/) [Area chair of automata theory]
+- [CAV'24](http://i-cav.org/) [Area chair]
 - [LICS'24](https://lics.siglog.org/lics24/)
 - [STACS'24](https://stacs2024.limos.fr/)
 - [TACAS'24](https://etaps.org/2024/conferences/tacas/)
