@@ -49,6 +49,7 @@ Selected Tool:
 - Moritz Graf (PhD Student)
 - Hongjian Jiang (PhD Student)
 - Oliver Markgraf (PhD Student)
+- Julian Parsert (Postdoc)
 
 ### Past Members
 - Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
