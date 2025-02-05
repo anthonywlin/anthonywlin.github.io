@@ -44,12 +44,14 @@ Selected Tool:
 
 ## Research Group Members
 ### Current Members
+- Julian Parsert (Postdoc)
+- Marco Sälzer (Postdoc)
 - Pascal Bergstraßer (PhD Student)
 - Eva Gonzalez Garcia (PhD Student)
 - Moritz Graf (PhD Student)
 - Hongjian Jiang (PhD Student)
+- Heyang Li (PhD Student)
 - Oliver Markgraf (PhD Student)
-- Julian Parsert (Postdoc)
 
 ### Past Members
 - Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
