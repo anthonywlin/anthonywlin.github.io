@@ -12,9 +12,9 @@
   Postdoc Researchers soon. Please let me know if you are interested.
 
 ## Background
-- Professor in Theoretical Computer Science (Automated Reasoning) and 
-  Max-Planck Fellow at [Technical University of 
-  Kaiserslautern, Germany](https://www.cs.rptu.de/)
+- Full Professor (W3) in Theoretical Computer Science (Automated Reasoning) and 
+  Max-Planck Fellow at [University of 
+  Kaiserslautern-Landau, Germany](https://www.cs.rptu.de/)
 - Previously:
   - (2016 - 2019) Associate Professor in Programming Languages at [Oxford University Department of Computer Science](https://www.cs.ox.ac.uk/) and Governing Body Fellow at [Kellogg College](https://www.kellogg.ox.ac.uk/). I taught at the
 [MSc Software Engineering Programme](https://www.cs.ox.ac.uk/softeng/).
@@ -27,7 +27,8 @@
     Google Faculty Award (2017), LICS Kleene Award (2010)
 - Where else I studied: BSc (Honours) at Melbourne University and MSc at
   University of Toronto
-- Where I am from: I am Australian and was born in Indonesia
+- Where I am from: I am Australian (and since recently also German) and was 
+  born in Indonesia
 
 ## Research Interests
 I am interested in automated reasoning (particularly over 
@@ -44,22 +45,18 @@ Selected Tool:
 
 ## Research Group Members
 ### Current Members
+- Pascal Bergstraßer (Postdoc)
 - Julian Parsert (Postdoc)
 - Marco Sälzer (Postdoc)
-- Pascal Bergstraßer (PhD Student)
 - Eva Gonzalez Garcia (PhD Student)
 - Moritz Graf (PhD Student)
 - Hongjian Jiang (PhD Student)
 - Heyang Li (PhD Student)
 - Oliver Markgraf (PhD Student)
 
-### Past Members
-- Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
-  at National Chingchi University, Taiwan)
+### Past Postdocs
 - Dr. Shuanglong Kan (Postdoc Researcher completed in 2022, now Researcher at
   Certik)
-- Dr. Xuan-Bach Le (PhD student completed in 2018, now 
-  Postdoc at Nanyang Technical Uni, Singapore)
 - Dr. Muhammad Najib (Postdoc Researcher completed in 2022, now Lecturer at
     Heriot-Watt University, UK)
 - Dr. Reino Niskanen (Postdoc Researcher completed in 2018, now Lecturer at Liverpool John Moores
@@ -70,6 +67,14 @@ Selected Tool:
   at Epita, France)
 - Dr. Di-De Yen (Postdoc Researcher completed in 2023, now postdoc at Academia
   Sinica, Taipei)
+
+
+### Past PhD Students
+- Dr. Pascal Bergsträßer (completed in 2025)
+- Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
+  at National Chingchi University, Taiwan)
+- Dr. Xuan-Bach Le (PhD student completed in 2018, now 
+  Postdoc at Nanyang Technical Uni, Singapore)
 
 ## Events
 ### PC chair/organizer:
