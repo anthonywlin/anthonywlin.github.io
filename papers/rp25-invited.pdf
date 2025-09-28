@@ -1,0 +1,425 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\let\proof\relax 
+\let\endproof\relax
+\usepackage{amsthm}
+\input{macros}
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+\begin{document}
+%
+\title{The Role of Logic and Automata in Understanding Transformers}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{
+Anthony~W. Lin\inst{1,2}\orcidID{0000-0003-4715-5096} \and Pablo Barcelo\inst{3}\orcidID{0000-0003-2293-2653}}
+%
+\authorrunning{Lin and Barcelo}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{
+Max-Planck Institute for Software Systems, Kaiserslautern, Germany
+%\email{awlin@mpi-sws.org}
+\and
+University of Kaiserslautern-Landau, Kaiserslautern, Germany \and 
+Institute for Mathematical and Computational Engineering, Pontificia Universidad
+    Cat\'{o}lica de Chile \& IMFD Chile \& CENIA Chile
+%\email{\{abc,lncs\}@uni-heidelberg.de}
+}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+The advent of transformers has in recent years led to powerful and revolutionary Large Language Models (LLMs). Despite this, our understanding on the capability of transformers is still meager. In this invited contribution, we recount the rapid progress in the last few years to the question of what transformers can do. In particular, we will see the integral role of logic and automata (also with some help from circuit complexity) in answering this question. We also mention several open problems at the intersection of logic, automata, verification and transformers.
+
+\keywords{Transformers  \and Hard Attention \and LTL \and Regular Languages.}
+\end{abstract}
+%
+%
+%
+\section{Introduction}
+
+Recent years witnessed the unprecedented emergence of Large Language Models
+(LLMs), which have revolutionized many aspects of our lives. LLMs are based on a
+new neural network model called \emph{transformers}, which extends the classical
+feed-forward neural network model via \emph{attention mechanisms} for handling
+texts of arbitrary lengths. Unlike Recurrent Neural Networks (RNN) \cite{elman} --- which predated transformers by decades --- transformers have proven to be efficiently parallelizable and able to capture long-range dependencies better in practice. Despite the rapid adoption of transformers as a mainstream ML model, some limitations of the transformer model have only been understood in recent years. One good example of such a limitation is to perform \emph{counting} in a text, e.g., determine whether there is an even or an odd number of occurrences of a given token in a text. 
+
+In recent years, subareas of theoretical computer science --- including logic,
+automata, and circuit complexity --- have  featured in the rapid development of
+the theory of expressivity of transformers (cf. \cite{transformers-survey}).
+Such a connection has organically materialized because transformers are computational models that process texts (i.e., strings) and can be studied just like formal models such as finite-state automata, Turing machines, or logics like first-order and second-order logics on strings. Multiple formal models have been developed by varying the following aspects of transformers: attention mechanisms, positional encodings, precision, and the so-called ``chain of thoughts''. Guided by both theory building and experimentation, a picture on the expressive power of transformers has slowly emerged. Although this picture is to date incomplete, a respectable body of works have been produced in the so-called FLaNN (Formal Languages and Neural Networks) community, consisting of logicians, automata theorists, and computational linguists. 
+
+\paragraph{Why this article?} This article has been written to recount \emph{some}
+gems that have been discovered at the intersection  of logic, automata, circuit
+complexity, and transformers. That is, we do not aim to be exhaustive. The
+choices of materials are additionally based on our subjective
+taste\footnote{Before working on FLaNN, the authors primarily researched in
+logic, automata theory, automated reasoning, finite model theory, and
+databases.}. The intended audience of the article includes researchers in logic,
+automata, verification and programming languages.  In particular, we will
+mention several open problems, which we believe are worth undertaking in the
+next years. 
+
+\paragraph{Highlight of key results.} In its simplest form, a transformer can be understood as a formal model that takes an input  \emph{text} (i.e. string) and outputs a {\em token} (i.e. letter). More formally, a transformer gives rise to a function $f: \ialphabet^* \to \ialphabet$, for some finite alphabet $\ialphabet$ of tokens. Moreover, one could think of $f$ as a family of formal languages $\{L_a\}_{a \in \ialphabet}$, where $L_a := \{ w \in \ialphabet^* : f(w) = a\}$. This connection underlines the bridge between formal languages and transformers:  one can simply study such formal languages $L_a$ generated (or recognized) by transformers. 
+
+The first set of results in the paper concerns the expressivity of transformers with {\em unique hard attention} mechanisms (a.k.a. Unique Hard Attention Transformers, or simply UHAT). Such an attention mechanism --- which finds the leftmost value that maximizes the attention score --- is a simplification of \emph{softmax attention}, which is used in practice but has proven to be tricky to analyze in theory owing to the use of such real-valued functions as $e^x$.  
+The first key result that we discuss in the paper is from \cite{BKLP24,masked-uhat}. It connects 
+formal languages definable in various fragments of first-order logic over strings extended with all numerical predicates (equivalently, subclasses of the circuit complexity class $\ACzero$) and UHAT. In particular, the language
+\[
+\parity := \{ w \in \{a,b\} : |w|_a \equiv 0 \pmod{2} \}
+\]
+is well-known \cite{Ajtai83} not to be in $\ACzero$, therefore cannot be expressed by UHAT. We cover this in Section \ref{sec:uhat}.
+
+The second set of results concerns the expressivity of transformers with {\em averaging hard attention} mechanisms (a.k.a. Average Hard Attention Transformers, or simply AHAT). Such an attention mechanism --- which averages all values that maximize the attention score (unlike simply taking the leftmost value) --- provides another approximation of practical transformers, which use softmax attention. In particular, AHAT is tightly connected to Linear Temporal Logic extended with counting and the circuit complexity class $\TCzero$.
+We cover this in Section \ref{sec:ahat}
+
+Finally, we discuss the limitations of both UHAT and AHAT as approximations of practical transformers. In particular, we consider a recent promising direction that restricts AHAT to uniform attention layers (i.e., each position receives the same amount of attention). The resulting model, called AHAT[U], appears to be a good approximation of softmax transformers. We also discuss the distinction between expressibility and trainability in Section \ref{sec:limitations}.
+
+\paragraph{Precision.} Real-world transformers are implemented on a specific
+hardware that allows fixed (bit-)precision and fixed memory. Of course, one can
+allow more precision and more memory by upgrading the hardware. Therefore, 
+researchers in the theory of transformers has adopted a more practical approach
+by specifying different precision model on a transformer $\transformer$: 
+\begin{enumerate}
+    \item \emph{Fixed} precision: there is a constant $c$ on the allowed 
+        number of bits for any computation performed by $\transformer$.
+    \item \emph{Logarithmic} precision: the number of allowed bits in the
+        computation of $\transformer$ on a string of length $n$ is $O(\log n)$.
+    \item \emph{Polynomial} precision: the number of allowed bits in the
+        computation of $\transformer$ on a string of length $n$ is $O(n^c)$ for
+        some constant $c$.
+    \item \emph{Rational} (resp. \emph{real}) precision: this means rational
+        (resp. real) computation is allowed with an unbounded precision.
+\end{enumerate}
+Although the distinction is important, it overcomplicates an introductory
+article. For these reasons, we will assume the last precision model, and simply
+remark
+that all of the mentioned results work also for polynomial precision (and often
+also logarithmic precision).
+%However, assuming a fully
+%fixed precision and fixed memory reduces even Turing machines to finite-state
+%automata, which does not reveal any new insight on the power of various
+%computational models. In reality, one may add additional memory
+
+\paragraph{Notation and assumed background.} We assume familiarity with 
+standard results in logic and automata, and their connections to circuit
+complexity. All required background could be found in the excellent book
+\cite{libkin-book} by Libkin.
+In particular, we will consider {\em star-free} languages (i.e. regular
+languages generated by regular expressions that use concatenation, union,
+complementation, but no Kleene star), and their equivalent formulation using
+first-order logic over strings (i.e. over the embedding of strings as logical 
+structures, e.g., $aba$ is encoded as the structure with universe $\{1,2,3\}$,
+the order relation $\preceq\ \subseteq \{1,2,3\}^2$, and unary relations $U_a =
+\{1,3\}$ and $U_b = \{2\}$ indicating which positions labeled by $a$ and $b$,
+respectively). By Kamp's theorem \cite{kamp}, the logic is equivalent to Linear
+Temporal Logic (LTL). First-order logic characterization of star-free languages
+can be extended with all numerical predicates to give us a characterization of
+the circuit complexity class (nonuniform) $\ACzero$, which can be defined by a 
+class of problems that can be solved by a family $\{C_n\}_{n \geq 0}$ of
+constant-depth polynomial-sized (i.e. polynomial in $n$) boolean circuits (with 
+unbounded fan-ins), wherein $C_n$ is employed to decide input strings of length 
+$n$. Note that a $k$-ary numerical predicate simply means a relation $R
+\subseteq \N^k$. In the sequel, we also use the fragment FO[Mon], which restricts the above use of numerical predicates only to \emph{monadic} (i.e. unary) numerical predicates. This is a strict subset of $\ACzero$.
+
+The circuit complexity $\TCzero$ extends $\ACzero$ with majority gates,
+which effectively allows one to encode all standard arithmetic operations on
+numbers including addition, multiplication, etc. $\TCzero$ problems are often 
+construed in the FLaNN (Formal Languages and Neural Networks) community as 
+\emph{efficiently parallelizable} problems. Note that $\TCzero$ is a subset of
+the circuit complexity class $\NCone$, which contains all problems solvable by
+families of polynomial-sized circuits of logarithmic depth. It is known that
+$\NCone$ contains all regular languages. [It is not known if all regular
+languages are contained in $\TCzero$]. In turn, $\NCone$ is a subset of $\Logspace$, i.e., the class of problems solvable in logarithmic space.
+
+
+\section{Formal Models of Transformers}
+\label{sec:model}
+
+We define several formal models of transformers, which are based on the type of
+adopted attention mechanisms (i.e. hard or soft attention). We first define
+these semantically, and then instantiate them based on different attention
+mechanisms.
+
+A transformer can be seen as a composition of several 
+sequence-to-sequence transformations. More precisely, a \emph{seq-to-seq
+transformation} is a length-preserving $f: (\R^l)^* \to (\R^h)^*$ for some
+positive integers $l,h$. That is, $f$ maps an input sequence $\sigma$ of 
+vectors of dimension $l$ to an output sequence $f(\sigma)$ of dimension $h$ of the
+same length, i.e., $|f(\sigma)| = |\sigma|$. We write $\idim(f)$ (resp. $\odim(f)$) to 
+denote the dimension of the input (resp. output) vectors of $f$, i.e., $l$
+(resp. $h$). A sequence $\mu := f_1,\ldots,f_k$ of seq-to-seq transformers is said to
+be \defn{well-typed} if $\idim(f_{i+1}) = \odim(f_i)$ for each $i=1,\ldots,k-1$.
+We assume a finite \defn{alphabet} $\ialphabet$ of tokens (a.k.a. symbols or
+characters) not containing the \defn{end-of-string symbol} $\EOS$. We write
+$\ialphabet_\EOS$ to denote $\ialphabet \cup \{\EOS\}$.
+A \emph{transformer} $\transformer$ over $\ialphabet$  can then 
+be defined as a triple $(\mu,\tokenem,\vecT)$, where $\mu$ is a
+well-typed sequence of seq-to-seq transformers as above, $\tokenem:
+\ialphabet_\EOS \to \R^d$ with $d = \idim(f_1)$ is called a \emph{token 
+embedding}, and $\vecT \in \R^{s}$ with $s = \odim(f_k)$. The token embedding
+$\tokenem$ can be extended to $\tokenem: \ialphabet^* \to (\R^d)^*$ by 
+morphism, i.e.,
+$\tokenem(w_1\cdots w_n) = \tokenem(w_1)\cdots \tokenem(w_n)$, with $w_1\cdots
+w_n \in \ialphabet^*$.
+The language $L
+\subseteq \ialphabet^*$ accepted by $\transformer$ consists precisely of 
+strings $w \in \ialphabet^*$ such that the last vector $\vecV$ in 
+\begin{equation}
+    f_k(f_{k-1}(\cdots f_1(\tokenem(w\EOS)) \cdots )) \label{eq:accept}
+\end{equation}
+--- that is, at position $|w|+1$ in the sequence --- satisfies
+$\langle \vecT,\vecV \rangle > 0$, where $\langle \vecT,\vecV \rangle$ denotes
+the dot product of $\vecT$ and $\vecV$. That is, we first apply $f_1,\ldots,f_k$ (in
+this order) to the sequence $\tokenem(w\EOS)$ of vectors, and check if a
+weighted sum of the arguments in the last vector is positive.
+
+\begin{remark}
+    The above setting of transformers does not admit \emph{Chain of Thoughts
+    (CoTs)}.  With CoTs, a transformer $\transformer$ on input $w$ will output 
+    symbols, which are then continuously fed back into $\transformer$ until a specific
+    output symbol is produced. That is, on input $w$, $\transformer$ produces 
+    a symbol $a_1$. We then run $\transformer$ on input $wa_1$ and produce
+    another symbol $a_2$, and so on. It is known that transformers with CoTs
+    are Turing-complete \cite{turing1,turing2,MS24}. In the sequel, we do not consider transformers with CoTs. \qed
+\end{remark}
+
+We have thus far defined the notion of transformers only semantically. We now 
+discuss how to define a seq-to-seq transformation more concretely. To this end,
+we employ the following ideas:
+\begin{enumerate}
+    \item Use \emph{piecewise linear functions} to modify a single vector in
+        the sequence. 
+    \item Use \emph{attention} to ``aggregate'' several vectors in the sequence.
+\end{enumerate}
+We will discuss these in turn.
+
+\subsection{Piecewise linear functions}
+A \defn{piecewise linear function} is a function $f: \R^r \to \R^s$ that is
+representable by a Feed-Forward Neural Network (FFNN). More precisely, a
+piecewise linear function can be defined inductively:
+\begin{description}
+    \item[(Base)] Each identity function $Id: \R^r \to \R^r$ is piecewise
+        linear.
+    \item[(Affine)] If $f: \R^r \to \R^s$ is piecewise linear and $g: \R^s \to
+        \R^t$ is an affine transformation\footnote{That is, given an input
+        vector $\vecX$, we output $A\vecX + \vecC$, where $A$ is a linear 
+        transformation and $\vecC$ is a constant vector.}, then the composition
+        $f\circ g: \R^r \to \R^t$ is piecewise linear.
+    \item[(ReLU)] If $f: \R^r \to \R^s$ is piecewise and $i \in\{1,\ldots,s\}$,
+        then the function $g: \R^r \to \R^s$ defined as
+        \[
+            g(\vecV) = (w_1,\ldots,w_{i-1},\max\{0,w_i\},w_{i+1},\ldots,w_s), 
+        \]
+        where $f(\vecV) = (w_1,\ldots,w_s)$, is piecewise linear. 
+\end{description}
+As before, we can extend each piecewise linear function to sequences of vectors
+by morphisms, i.e., $f: (\R^r)^* \to (\R^s)^*$ with $f(\vecV_1,\ldots,\vecV_n)
+:= f(\vecV_1),\ldots,f(\vecV_n)$. Notice, however, such functions can
+\emph{only}
+modify a vector at the $i$th position in the sequence solely based on its values
+and \emph{not} on the values of vectors at other positions. An intra-sequence 
+aggregation of values is enabled by the so-called \emph{attention}, which we
+discuss next.
+
+\subsection{Attention layers}
+
+To define an attention layer, we assume a \emph{weight normalizer} $\weight: 
+\R^* \to \R^*$, which turns any $d$-sequence of weights into another $d$-sequence
+of weights. We will define some common normalizers below, which will result in
+hard and soft attention layers. 
+
+A seq-to-seq transformation $f: (\R^r)^* \to (\R^s)^*$ generated by an
+attention layer associated with $\weight$ is given by three piecewise linear 
+functions $A,B,C$
+\[
+    A,B: \R^r \to \R^r \qquad C: \R^{2r} \to \R^s.
+\]
+defined as follows. On input $\sigma = \vecX_1,\ldots,\vecX_n$, we have
+$f(\sigma) = \vecY_1,\ldots,\vecY_n$ such that
+\[
+    \vecY_i := C(\vecX_i,\vecV)
+\]
+where %$\vecV = \sum_{j=1}^n \vecW(j) \vecX_j \qquad$ with
+\begin{eqnarray}
+    \vecV & := & \sum_{j=1}^n \vecW(j) \vecX_j, \label{eq:weighted_sum} \\
+    \vecW & := & \weight(\{\langle A\vecX_i,B\vecX_j\rangle\}_{j=1}^n).
+    \label{eq:weight}
+\end{eqnarray}
+In other words, an attention layer looks at a vector $\vecX_i$ at each position 
+$i$ and decides ``how much attention'' is to be given to vectors
+$\{\vecX_j\}_{j=1}^n$ at any
+position in the input sequence. To this end, one obtains a sequence of weights 
+$\{\langle \vecX_i,\vecX_j\rangle\}_{j=1}^n$. After normalizing this using
+$\weight$, the result of the attention is $\vecV$, which is a weighted sum
+$\{\vecX_j\}_{j=1}^n$ over all the input vectors.
+
+\subsubsection*{Soft Attention.}
+Practical transformers use weight normalizers defined by the softmax function,
+which turns a sequence of weights into a probability distribution. In
+particular, 
+%Soft(max) attention uses the softmax function to convert a sequence of vectors
+%into a probability distribution normalized by their values. In particular, 
+given a sequence $\sigma = x_1,\ldots,x_n \in \R^n$, define $\softmax(\sigma) 
+:= y_1,\ldots,y_n$, where
+\[
+    y_i := \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}.
+\]
+A \defn{SoftMax Attention Transformer (SMAT)} consists of seq-to-seq transformations that are
+defined using the softmax weight normalizer.
+
+%Then, a seq-to-seq transformation $f: (\R^r)^* \to (\R^s)^*$ generated by a soft 
+%attention layer is given by three piecewise linear functions $A,B,C$
+%\[
+    %A,B: \R^r \to \R^r \qquad C: \R^{2r} \to \R^s.
+%\]
+%defined as follows. On input $\sigma = \vecX_1,\ldots,\vecX_n$, we have
+%$f(\sigma) = \vecY_1,\ldots,\vecY_n$ such that
+%\[
+    %\vecX_i := C(\vecX_i,\vecV)
+%\]
+%where
+%\[
+    %\vecV = \langle \vecX_i,\vecW\rangle \quad \text{with} \quad 
+    %\vecW = \softmax(\{\langle A\vecX_i,B\vecX_j\rangle\}_{j=1}^n).
+%\]
+
+\subsubsection*{Hard Attention}
+As previously mentioned, softmax attention is sometimes rather difficult to
+analyze, owing to the usage of exponential functions. This led researchers to
+use other weight normalizers that led to the so-called \defn{hard attention
+layers}. More precise, there are two common flavors: 
+\defn{unique hard attention} and \defn{average hard attention}. A unique hard 
+attention uses the weight normalizer $\uha$ that selects the leftmost maximum 
+weight, i.e., $\uha(x_1,\ldots,x_n)=(y_1,\ldots,y_n)$, where
+$y_i := 1$ if $i$ is the leftmost position in $\vecX := x_1,\ldots,x_n$ with
+$x_i = \max(\vecX)$; or else $y_i := 0$. An average hard attention uses the 
+weight normalizer $\aha$ that selects \emph{all} positions with maximum
+weight, i.e., $\aha(x_1,\ldots,x_n)=(y_1,\ldots,y_n)$, where 
+$y_i := 1/|P|$ if $x_i = \max(\vecX)$; or else $y_i := 0$. Here 
+$P$ consists of positions $i$ in $\sigma$ such that $x_i$
+            is maximum in $\vecX$.
+
+\subsection{Positional information}
+Thus far, we have actually defined a rather weak class of transformers (called
+\emph{NoPE-transformers}) that cannot distinguish different positions in the 
+input sequence. They recognize \emph{permutation-invariant} languages, i.e.,
+a string $s$ is in the language $L$ iff all of the reorderings of $s$ are in
+$L$. There are two common ways to recover ordering: (1) \emph{masking} and 
+(2) \emph{Position Embeddings (PEs)}. We will go through these in turn.
+
+\subsubsection*{Masking.} Masking is used to ``hide'' some positions in an
+input sequence to a layer with respect to a certain ``anchor'' position. The
+most commonly used type of masking is called \emph{strict future masking}, 
+which we will focus on in the remainder of the paper.
+
+Intuitively, when attention is applied with respect to the position $i$, we 
+looked at \emph{all} positions and computed a normalized weight sequence
+accordingly. The version with strict future masking modifies this by considering
+only positions $j$ \emph{strictly before} $i$, i.e., $j < i$. Formally, one
+simply modifies Equation \ref{eq:weighted_sum} and Equation \ref{eq:weight} by 
+the masked version:
+\begin{align*}
+    \vecV &= \sum_{j=1}^{i-1} \vecW(j) \vecX_j, \qquad & 
+    \vecW &= \weight(\{\langle A\vecX_i,B\vecX_j\rangle\}_{j=1}^{i-1}).
+\end{align*}
+
+\subsubsection*{Position Embeddings (PEs).} A \defn{Position Embedding} is an 
+\emph{arbitrary} function of the form $p: \N \times \N \to \R^d$. The idea is 
+that $p(i,n)$ indicates the position information of the vector at position $i$ for
+a sequence of length $n$. Thus, to extend transformers by PEs, we first apply
+both the token embedding and the PE $p$ to the input string $w=w_1\cdots w_n$
+before processing the resulting sequence of vectors in the usual way. More 
+formally, we modify the above acceptance condition in the definition of 
+transformers by using 
+\[
+    f_k(f_{k-1}(\cdots f_1(\sigma)) \cdots ))
+\]
+where, instead of Equation \ref{eq:accept}, we use
+\[
+    \sigma :=
+\tokenem(w_1)+p(0,n+1),\cdots,\tokenem(w_n)+p(n,n+1),\tokenem(\EOS)+p(n+1,n+1). 
+\]
+
+
+At this point, it is appropriate to ask what types of PEs are reasonable. In
+practice, PEs may use trigonometric functions (e.g. $\sin$) and various other
+information about the position in the sequence (e.g. the ``absolute'' position
+$i$, the length $n$ of the sequence, etc.). Thus, researchers have studied
+transformers with PEs \emph{without} any restriction whatsoever on the PEs.
+Remarkably, some interesting results can already be proven in this setting. We
+will mention some restricted classes later.
+We end this section with an easy result:
+
+%There
+%have been multiple types of PEs that have been considered in the literature, as 
+\begin{proposition}
+    Each Masked UHAT (resp. AHAT) with PEs can be simulated by UHAT (resp. 
+    AHAT) with PEs with no masking.
+\end{proposition}
+
+\input{uhat}
+
+\input{ahat}
+
+\input{limitations}
+
+\input{conc}
+
+\paragraph{Acknowledgment.} We thank Pascal Bergsträßer, David Chiang, Michael Hahn, Alexander Kozachinskiy, Andy Yang, and Georg Zetzsche for the fruitful discussion. Lin is supported by the European Research Council\footnote{https://doi.org/10.13039/100010663} under Grant No.~101089343 (LASD). Barcel\'o is funded by ANID - Millennium Science Initiative Program -
+Code ICN17002, and by CENIA FB210017, Basal ANID.
+
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{refs}
+%
+
+%\begin{thebibliography}{8}
+%\bibitem{ref_article1}
+%Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+
+%\bibitem{ref_lncs1}
+%Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+%F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+%Springer, Heidelberg (2016). \doi{10.10007/1234567890}
+
+%\bibitem{ref_book1}
+%Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+%Location (1999)
+
+%\bibitem{ref_proc1}
+%Author, A.-B.: Contribution title. In: 9th International Proceedings
+%on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+%\bibitem{ref_url1}
+%LNCS Homepage, \url{http://www.springer.com/lncs}, last accessed %2023/10/25
+%\end{thebibliography}
+\end{document}
