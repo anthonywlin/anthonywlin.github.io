@@ -4,12 +4,8 @@
 ## NEWS
 - I will be chairing the PC of CAV'26 (together with Eva Darulova and Philipp 
   Ruemmer)
-- I will be giving a [tutorial on string solving at POPL'24](https://popl24.sigplan.org/details/POPL-2024-tutorialfest/3/String-Solving-for-Verification)
-- Our string solver OSTRICH won [QF_S (Single Query Track) in SMT-COMP 2023](https://smt-comp.github.io/2023/results/qf-s-single-query)!
-- ![Image](ERC_logo_small.jpeg) I am delighted to have received an ERC
-[Consolidator Grant](https://erc.europa.eu/news-events/news/erc-2022-consolidator-grants-results) on Logic and
-  Automata over Sequences with Data. I will be looking for PhD Students and
-  Postdoc Researchers soon. Please let me know if you are interested.
+- I am delighted to be invited as a keynote speaker at [VMCAI'26](https://conf.researchr.org/home/VMCAI-2026)
+- I am delighted to have given an invited talk at [RP'25](https://rp25.software.imdea.org/). The invited paper can be found [here](papers/rp25-invited.pdf)
 
 ## Background
 - Full Professor (W3) in Theoretical Computer Science (Automated Reasoning) and 
