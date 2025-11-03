@@ -31,7 +31,7 @@ I am interested in automated reasoning (particularly over
 [strings](strings.md)), formal language theory, learning/synthesis, and
 foundations of machine learning. Applications of interests include software 
 verification, program synthesis, querying graph databases, machine learning, 
-and computer security. My [publication page](publications.md) contains 
+and computer security. My [publications page](publications.md) contains 
 pretty much all my published papers.
 
 Selected Tool:
