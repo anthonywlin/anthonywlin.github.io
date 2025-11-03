@@ -2,7 +2,7 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
-- I will be chairing the PC of CAV'26 (together with Eva Darulova and Philipp 
+- I will be chairing the PC of [CAV'26](https://conferences.i-cav.org/2026/) (together with Eva Darulova and Philipp 
   Ruemmer)
 - I am delighted to be invited as a keynote speaker at [VMCAI'26](https://conf.researchr.org/home/VMCAI-2026)
 - I am delighted to have given an invited talk at [RP'25](https://rp25.software.imdea.org/). The invited paper can be found [here](papers/rp25-invited.pdf)
@@ -31,7 +31,7 @@ I am interested in automated reasoning (particularly over
 [strings](strings.md)), formal language theory, learning/synthesis, and
 foundations of machine learning. Applications of interests include software 
 verification, program synthesis, querying graph databases, machine learning, 
-and computer security. My [publication page](publications.html) contains 
+and computer security. My [publication page](publications.md) contains 
 pretty much all my published papers.
 
 Selected Tool:
@@ -42,6 +42,7 @@ Selected Tool:
 ## Research Group Members
 ### Current Members
 - Pascal Bergstraßer (Postdoc)
+- Antonio Casares (Postdoc)
 - Julian Parsert (Postdoc)
 - Marco Sälzer (Postdoc)
 - Eva Gonzalez Garcia (PhD Student)
@@ -74,7 +75,7 @@ Selected Tool:
 
 ## Events
 ### PC chair/organizer:
-- CAV'26 (co-chaired with Eva Darulova and Philipp Ruemmer)
+- [CAV'26](https://conferences.i-cav.org/2026/) (co-chaired with Eva Darulova and Philipp Ruemmer)
 - [RP'22](https://rp2022.mpi-sws.org/) (co-chaired with Georg Zetzsche)
 - [APLAS'19](https://conf.researchr.org/home/aplas-2019)
 - [MOSCA (Meetings on String Constraints and Applications) 2019](https://mosca19.github.io/) (co-chaired with Loris D'Antoni and Philipp Rümmer)
