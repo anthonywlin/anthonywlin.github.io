@@ -3,6 +3,8 @@
 On this page, you will find pre-print versions of my writings in a chronological order (recent one first). Author names are often ordered alphabetically as commonly done in theoretical computer science and mathematics, though I also do reverse-alphabetical order just for fun. Very recently I have also sometimes adopted an author ordering that is more typical in ML (i.e., senior authors at the end, or authors with the most contribution at the beginning). All papers can be downloaded for personal or research purposes only. If a paper (or a full version thereof) is not available here, you may send me an email to obtain it.
 
 ## Peer-Reviewed Publications
+1. [Mitigating Spurious Features in Contrastive Learning with Spectral Regularization](https://openreview.net/pdf/0ac576f6512c1085d6d2122eb95e8ee0fd5a1703.pdf). In NeurIPS'25. (Naghmeh Ghanooni, Waleed Mustafa, Dennis Wagner, Sophie 
+Fellenz, Anthony Lin, Marius Kloft)
 1. [The Role of Logic and Automata in Understanding Transformers](papers/rp25-invited.pdf). Invited Paper in RP'25. (Anthony W. Lin and Pablo Barcelo)
 1. [OSTRICH2: Solver for Complex String Constraints](https://arxiv.org/abs/2506.14363). In FMCAD 2025. (with Matthew Hague, Denghang Hu, Artur Jez, Oliver Markgraf, Philipp Ruemmer and Zhilin Wu)
 1. [The Power of Regular Constraint Propagation](https://arxiv.org/abs/2508.19888). In OOPSLA 2025. (Joint with Matthew Hague, Artur Jez, Oliver Markgraf, Philipp Ruemmer)
