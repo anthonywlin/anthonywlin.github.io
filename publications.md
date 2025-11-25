@@ -78,6 +78,9 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [Revisiting the Expressiveness Landscape of Data Graph Queries](https://arxiv.org/abs/2406.17871). Michael Benedikt, Anthony W. Lin, Di-De Yen.
 1. [Transformers are Inherently Succinct](https://www.arxiv.org/abs/2510.19315).   Pascal Bergsträßer, Ryan Cotterell, Anthony W. Lin.
 1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). Andy Yang, Anej Svete, Jiaoda Li, Anthony Widjaja Lin, Jonathan Rawski, Ryan Cotterell, David Chiang.
+1. [Extracting Robust Register Automata from Neural Networks over Data
+   Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
+   Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
