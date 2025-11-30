@@ -81,6 +81,8 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [Extracting Robust Register Automata from Neural Networks over Data
    Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
    Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
+1. [Softmax Transformers are Turing-Complete](https://arxiv.org/abs/2511.20038).
+   Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
