@@ -3,6 +3,8 @@
 On this page, you will find pre-print versions of my writings in a chronological order (recent one first). Author names are often ordered alphabetically as commonly done in theoretical computer science and mathematics, though I also do reverse-alphabetical order just for fun. Very recently I have also sometimes adopted an author ordering that is more typical in ML (i.e., senior authors at the end, or authors with the most contribution at the beginning). All papers can be downloaded for personal or research purposes only. If a paper (or a full version thereof) is not available here, you may send me an email to obtain it.
 
 ## Peer-Reviewed Publications
+1. [Complexity of Evaluating GQL Queries](https://arxiv.org/abs/2407.06766). 
+   Accepted in ICDT'26. (Diego Figueira, Anthony W. Lin, Liat Peterfreund)
 1. [Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis](https://arxiv.org/abs/2504.07203). Accepted in CPP'26. (Shuanglong Kan, Anthony Lin).
 1. [Mitigating Spurious Features in Contrastive Learning with Spectral Regularization](https://openreview.net/pdf/0ac576f6512c1085d6d2122eb95e8ee0fd5a1703.pdf). In NeurIPS'25. (Naghmeh Ghanooni, Waleed Mustafa, Dennis Wagner, Sophie 
 Fellenz, Anthony Lin, Marius Kloft)
@@ -73,8 +75,6 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [The Counting Power of Transformers](https://arxiv.org/abs/2505.11199). Marco
    Saelzer, Chris Koecher, Alexander Kozachinskiy, Georg Zetzsche, Anthony W.
    Lin.
-1. [Complexity of Evaluating GQL Queries](https://arxiv.org/abs/2407.06766). 
-   Diego Figueira, Anthony W. Lin, Liat Peterfreund.
 1. [Revisiting the Expressiveness Landscape of Data Graph Queries](https://arxiv.org/abs/2406.17871). Michael Benedikt, Anthony W. Lin, Di-De Yen.
 1. [Transformers are Inherently Succinct](https://www.arxiv.org/abs/2510.19315).   Pascal Bergsträßer, Ryan Cotterell, Anthony W. Lin.
 1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). Andy Yang, Anej Svete, Jiaoda Li, Anthony Widjaja Lin, Jonathan Rawski, Ryan Cotterell, David Chiang.
