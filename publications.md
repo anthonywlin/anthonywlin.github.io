@@ -3,6 +3,9 @@
 On this page, you will find pre-print versions of my writings in a chronological order (recent one first). Author names are often ordered alphabetically as commonly done in theoretical computer science and mathematics, though I also do reverse-alphabetical order just for fun. Very recently I have also sometimes adopted an author ordering that is more typical in ML (i.e., senior authors at the end, or authors with the most contribution at the beginning). All papers can be downloaded for personal or research purposes only. If a paper (or a full version thereof) is not available here, you may send me an email to obtain it.
 
 ## Peer-Reviewed Publications
+1. Solving Qualitative Multi-Objective Stochastic Games. Accepted in AAMAS'26.
+   (Moritz Graf, Anthony Lin, Rupak Majumdar)
+1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). Accepted in TACAS'26. (Kilian Lichtner, Pascal Bergsträßer, Moses Ganardi, Anthony W. Lin, Georg Zetzsche)
 1. [Complexity of Evaluating GQL Queries](https://arxiv.org/abs/2407.06766). 
    Accepted in ICDT'26. (Diego Figueira, Anthony W. Lin, Liat Peterfreund)
 1. [Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis](https://arxiv.org/abs/2504.07203). Accepted in CPP'26. (Shuanglong Kan, Anthony Lin).
@@ -84,8 +87,6 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [Softmax Transformers are Turing-Complete](https://arxiv.org/abs/2511.20038).
    Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin.
 1. [Answering Constraint Path Queries over Graphs](https://arxiv.org/abs/2512.01733). Heyang Li, Anthony W. Lin, Domagoj Vrgoc.
-1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). Kilian Lichtner, Pascal Bergsträßer,
-   Moses Ganardi, Anthony W. Lin, Georg Zetzsche.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
