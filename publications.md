@@ -3,6 +3,15 @@
 On this page, you will find pre-print versions of my writings in a chronological order (recent one first). Author names are often ordered alphabetically as commonly done in theoretical computer science and mathematics, though I also do reverse-alphabetical order just for fun. Very recently I have also sometimes adopted an author ordering that is more typical in ML (i.e., senior authors at the end, or authors with the most contribution at the beginning). All papers can be downloaded for personal or research purposes only. If a paper (or a full version thereof) is not available here, you may send me an email to obtain it.
 
 ## Peer-Reviewed Publications
+1. [The Counting Power of Transformers](https://arxiv.org/abs/2505.11199).
+   Accepted at ICLR'26. (Marco Saelzer, Chris Koecher, Alexander Kozachinskiy, 
+Georg Zetzsche, Anthony W.  Lin)
+1. [Transformers are Inherently Succinct](https://www.arxiv.org/abs/2510.19315).   Accepted at ICLR'26. (Pascal Bergsträßer, Ryan Cotterell, Anthony W. Lin)
+1. [Softmax Transformers are Turing-Complete](https://arxiv.org/abs/2511.20038).
+   Accepted at ICLR'26. (Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin)
+1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). 
+   Accepted at ICLR'26. (Andy Yang, Anej Svete, Jiaoda Li, Anthony W. Lin, 
+   Jonathan Rawski, Ryan Cotterell, David Chiang)
 1. Solving Qualitative Multi-Objective Stochastic Games. Accepted in AAMAS'26.
    (Moritz Graf, Anthony Lin, Rupak Majumdar)
 1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). Accepted in TACAS'26. (Kilian Lichtner, Pascal Bergsträßer, Moses Ganardi, Anthony W. Lin, Georg Zetzsche)
@@ -75,17 +84,10 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [Recurrent Reachability Analysis in Regular Model Checking](papers/lpar08_full.pdf), In Proceedings of *15th International Conference on Logic for Programming Artificial Intelligence and Reasoning (LPAR)*, 2008. (with Leonid Libkin)
 
 ## Manuscripts under Submission
-1. [The Counting Power of Transformers](https://arxiv.org/abs/2505.11199). Marco
-   Saelzer, Chris Koecher, Alexander Kozachinskiy, Georg Zetzsche, Anthony W.
-   Lin.
 1. [Revisiting the Expressiveness Landscape of Data Graph Queries](https://arxiv.org/abs/2406.17871). Michael Benedikt, Anthony W. Lin, Di-De Yen.
-1. [Transformers are Inherently Succinct](https://www.arxiv.org/abs/2510.19315).   Pascal Bergsträßer, Ryan Cotterell, Anthony W. Lin.
-1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). Andy Yang, Anej Svete, Jiaoda Li, Anthony Widjaja Lin, Jonathan Rawski, Ryan Cotterell, David Chiang.
 1. [Extracting Robust Register Automata from Neural Networks over Data
    Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
    Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
-1. [Softmax Transformers are Turing-Complete](https://arxiv.org/abs/2511.20038).
-   Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin.
 1. [Answering Constraint Path Queries over Graphs](https://arxiv.org/abs/2512.01733). Heyang Li, Anthony W. Lin, Domagoj Vrgoc.
 
 ## Thesis
