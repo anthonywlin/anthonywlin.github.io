@@ -21,6 +21,7 @@
 - Awards (selected): ERC Consolidator Grant (2023), Amazon Research Award 
     (2021), ERC Starting Grant (2017), 
     Google Faculty Award (2017), LICS Kleene Award (2010)
+- ACM senior member
 - Where else I studied: BSc (Honours) at Melbourne University and MSc at
   University of Toronto
 - Where I am from: I am Australian (and since recently also German) and was 
