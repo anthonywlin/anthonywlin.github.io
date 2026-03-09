@@ -89,6 +89,9 @@ Fellenz, Anthony Lin, Marius Kloft)
    Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
    Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
 1. [Answering Constraint Path Queries over Graphs](https://arxiv.org/abs/2512.01733). Heyang Li, Anthony W. Lin, Domagoj Vrgoc.
+1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). William Merrill, Hongjian Jiang, Yanhong Li, Anthony Lin, Ashish Sabharwal.
+1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony Widjaja Lin.
+1. [Length Generalization Bounds for Transformers](https://arxiv.org/abs/2603.02238). Andy Yang, Pascal Bergsträßer, Georg Zetzsche, David Chiang, Anthony W. Lin.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
