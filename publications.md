@@ -8,7 +8,7 @@ On this page, you will find pre-print versions of my writings in a chronological
 Georg Zetzsche, Anthony W.  Lin)
 1. [Transformers are Inherently Succinct](https://www.arxiv.org/abs/2510.19315).   Accepted at ICLR'26. (Pascal Bergsträßer, Ryan Cotterell, Anthony W. Lin)
 1. [Softmax Transformers are Turing-Complete](https://arxiv.org/abs/2511.20038).
-   Accepted at ICLR'26. (Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin)
+   Accepted at ICLR'26. (Hongjian Jiang, Michael Hahn, Georg Zetzsche, Anthony W. Lin) [**Full Oral**]
 1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). 
    Accepted at ICLR'26. (Andy Yang, Anej Svete, Jiaoda Li, Anthony W. Lin, 
    Jonathan Rawski, Ryan Cotterell, David Chiang)

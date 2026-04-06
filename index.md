@@ -2,6 +2,7 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
+- I am delighted to be invited as a keynote speaker at [Highlights 2026](https://highlights-conference.org/2026/) in Vienna
 - I will be chairing the PC of [CAV'26](https://conferences.i-cav.org/2026/) (together with Eva Darulova and Philipp 
   Ruemmer)
 - I am delighted to be invited as a keynote speaker at [VMCAI'26](https://conf.researchr.org/home/VMCAI-2026)
