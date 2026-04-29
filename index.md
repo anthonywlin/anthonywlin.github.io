@@ -2,8 +2,8 @@
 ![My image](anthony-talk.jpg)
 
 ## NEWS
-- I am very honored to have received an [ICLR'26 Outstanding Paper Award](https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/) 
-  (2 out of 5000+ papers).
+- I am honored to have received an [ICLR'26 Outstanding Paper Award](https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/) 
+  (2 out of 5000+ accepted papers).
 - I am delighted to be invited as a keynote speaker at [Highlights 2026](https://highlights-conference.org/2026/) in Vienna
 - I will be chairing the PC of [CAV'26](https://conferences.i-cav.org/2026/) (together with Eva Darulova and Philipp 
   Ruemmer)
