@@ -7,7 +7,6 @@ On this page, you will find pre-print versions of my writings in a chronological
 David Chiang, Anthony W. Lin)
 1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). Accepted at ICML'26. (William Merrill, Hongjian Jiang, Yanhong Li, 
  Anthony Lin, Ashish Sabharwal)
-1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony Widjaja Lin.
 1. [The Counting Power of Transformers](https://arxiv.org/abs/2505.11199).
    In ICLR'26. (Marco Saelzer, Chris Koecher, Alexander Kozachinskiy, 
 Georg Zetzsche, Anthony W.  Lin)
@@ -94,6 +93,7 @@ Fellenz, Anthony Lin, Marius Kloft)
    Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
    Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
 1. [Answering Constraint Path Queries over Graphs](https://arxiv.org/abs/2512.01733). Heyang Li, Anthony W. Lin, Domagoj Vrgoc.
+1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony Widjaja Lin.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
