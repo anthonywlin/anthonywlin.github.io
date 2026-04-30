@@ -3,6 +3,8 @@
 On this page, you will find pre-print versions of my writings in a chronological order (recent one first). Author names are often ordered alphabetically as commonly done in theoretical computer science and mathematics, though I also do reverse-alphabetical order just for fun. Very recently I have also sometimes adopted an author ordering that is more typical in ML (i.e., senior authors at the end, or authors with the most contribution at the beginning). All papers can be downloaded for personal or research purposes only. If a paper (or a full version thereof) is not available here, you may send me an email to obtain it.
 
 ## Peer-Reviewed Publications
+1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Accepted at IJCAI'26. (Hongjian Jiang, Matthew Hague, Philipp 
+   Rümmer, Anthony Widjaja Lin)
 1. [Length Generalization Bounds for Transformers](https://arxiv.org/abs/2603.02238). Accepted at ICML'26. (Andy Yang, Pascal Bergsträßer, Georg Zetzsche, 
 David Chiang, Anthony W. Lin)
 1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). Accepted at ICML'26. (William Merrill, Hongjian Jiang, Yanhong Li, 
@@ -93,7 +95,6 @@ Fellenz, Anthony Lin, Marius Kloft)
    Sequences](https://arxiv.org/abs/2511.19100). Chih-Duo Hong, Hongjian Jiang,
    Anthony W. Lin, Oliver Markgraf, Julian Parsert, and Tony Tan.
 1. [Answering Constraint Path Queries over Graphs](https://arxiv.org/abs/2512.01733). Heyang Li, Anthony W. Lin, Domagoj Vrgoc.
-1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony Widjaja Lin.
 
 ## Thesis
 - [Model Checking Infinite-State Systems: Generic and Specific Approaches](papers/phdthesis.pdf). PhD thesis, School of Informatics, University of Edinburgh, August 2010.
