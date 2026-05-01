@@ -47,13 +47,13 @@ Selected Tool:
 ### Current Members
 - Pascal Bergstraßer (Postdoc)
 - Antonio Casares (Postdoc)
+- Oliver Markgraf (Postdoc)
 - Julian Parsert (Postdoc)
 - Marco Sälzer (Postdoc)
 - Eva Gonzalez Garcia (PhD Student)
 - Moritz Graf (PhD Student)
 - Hongjian Jiang (PhD Student)
 - Heyang Li (PhD Student)
-- Oliver Markgraf (PhD Student)
 
 ### Past Postdocs
 - Dr. Shuanglong Kan (Postdoc Researcher completed in 2022, now Researcher at
