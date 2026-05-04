@@ -9,6 +9,9 @@ On this page, you will find pre-print versions of my writings in a chronological
 David Chiang, Anthony W. Lin)
 1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). Accepted at ICML'26. (William Merrill, Hongjian Jiang, Yanhong Li, 
  Anthony Lin, Ashish Sabharwal)
+1. [The Polynomial Counting Capabilities of Message Passing Neural
+   Networks](papers/kr26.pdf). In KR'26. (Marco Sälzer, Pascal 
+   Bergsträßer, Anthony W. Lin)
 1. [The Counting Power of Transformers](https://arxiv.org/abs/2505.11199).
    In ICLR'26. (Marco Saelzer, Chris Koecher, Alexander Kozachinskiy, 
 Georg Zetzsche, Anthony W.  Lin)
@@ -18,7 +21,7 @@ Georg Zetzsche, Anthony W.  Lin)
 1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). 
    In ICLR'26. (Andy Yang, Anej Svete, Jiaoda Li, Anthony W. Lin, 
    Jonathan Rawski, Ryan Cotterell, David Chiang)
-1. Solving Qualitative Multi-Objective Stochastic Games. Accepted in AAMAS'26.
+1. [Solving Qualitative Multi-Objective Stochastic Games](https://arxiv.org/abs/2602.12927). Accepted in AAMAS'26.
    (Moritz Graf, Anthony Lin, Rupak Majumdar)
 1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). Accepted in TACAS'26. (Kilian Lichtner, Pascal Bergsträßer, Moses Ganardi, Anthony W. Lin, Georg Zetzsche)
 1. [Complexity of Evaluating GQL Queries](https://arxiv.org/abs/2407.06766). 
