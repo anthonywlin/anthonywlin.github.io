@@ -76,6 +76,7 @@ Selected Tool:
   at National Chingchi University, Taiwan)
 - Dr. Xuan-Bach Le (PhD student completed in 2018, now 
   Postdoc at Nanyang Technical Uni, Singapore)
+- Dr. Oliver Markgraf (completed in 2026)
 
 ## Events
 ### PC chair/organizer:

@@ -21,12 +21,12 @@ Georg Zetzsche, Anthony W.  Lin)
 1. [Probability Distributions Computed by Hard-Attention Transformers](https://arxiv.org/abs/2510.27118). 
    In ICLR'26. (Andy Yang, Anej Svete, Jiaoda Li, Anthony W. Lin, 
    Jonathan Rawski, Ryan Cotterell, David Chiang)
-1. [Solving Qualitative Multi-Objective Stochastic Games](https://arxiv.org/abs/2602.12927). Accepted in AAMAS'26.
+1. [Solving Qualitative Multi-Objective Stochastic Games](https://arxiv.org/abs/2602.12927). In AAMAS'26.
    (Moritz Graf, Anthony Lin, Rupak Majumdar)
-1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). Accepted in TACAS'26. (Kilian Lichtner, Pascal Bergsträßer, Moses Ganardi, Anthony W. Lin, Georg Zetzsche)
+1. [Fast Ramsey Quantifier Elimination in LIRA (with applications to liveness checking)](https://arxiv.org/abs/2511.05323). In TACAS'26. (Kilian Lichtner, Pascal Bergsträßer, Moses Ganardi, Anthony W. Lin, Georg Zetzsche)
 1. [Complexity of Evaluating GQL Queries](https://arxiv.org/abs/2407.06766). 
-   Accepted in ICDT'26. (Diego Figueira, Anthony W. Lin, Liat Peterfreund)
-1. [Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis](https://arxiv.org/abs/2504.07203). Accepted in CPP'26. (Shuanglong Kan, Anthony Lin).
+   In ICDT'26. (Diego Figueira, Anthony W. Lin, Liat Peterfreund)
+1. [Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis](https://arxiv.org/abs/2504.07203). In CPP'26. (Shuanglong Kan, Anthony Lin).
 1. [Mitigating Spurious Features in Contrastive Learning with Spectral Regularization](https://openreview.net/pdf/0ac576f6512c1085d6d2122eb95e8ee0fd5a1703.pdf). In NeurIPS'25. (Naghmeh Ghanooni, Waleed Mustafa, Dennis Wagner, Sophie 
 Fellenz, Anthony Lin, Marius Kloft)
 1. [The Role of Logic and Automata in Understanding Transformers](papers/rp25-invited.pdf). Invited Paper in RP'25. (Anthony W. Lin and Pablo Barcelo)
@@ -60,7 +60,8 @@ Fellenz, Anthony Lin, Marius Kloft)
 1. [CSS Minification via Constraint Solving](papers/toplas19.pdf). Recently accepted in ACM Transactions of Programming Languages and Systems, to be presented at POPL'19. (with Matthew Hague and Chih-Duo Hong)
 1. [Decision Procedures for Path Feasibility of String-Manipulating Programs with Complex Operations](https://arxiv.org/abs/1811.03167). In POPL'19. (with Taolue Chen, Matt Hague, Philipp Rümmer, and Zhilin Wu) [Click [here](https://github.com/pruemmer/ostrich) for our solver OSTRICH.]
 1. [Complexity Analysis of Tree Share Structure](papers/aplas18.pdf). In APLAS'18. (Joint with Xuan-Bach Le and Aquinas Hobor)
-1. Decidable models of integer-manipulating programs with recursive parallelism. Accepted in 2018 for publications in Theoretical Computer Science, Special Issue of Reachability Problems (RP) 2016. (with Matthew Hague) [The conference version can be found [here](papers/rp16.pdf)]
+1. Decidable models of integer-manipulating programs with recursive parallelism.   Theoretical Computer Science, Special Issue of Reachability Problems (RP) 
+2016. (with Matthew Hague) [The conference version can be found [here](papers/rp16.pdf)]
 1. [String Constraints with Concatenation and Transducers Solved Efficiently](papers/popl18-efficient.pdf), In POPL'18. (Joint with Lukas Holik, Petr Janku, Philipp Ruemmer, and Tomas Vojnar)
 1. [What is Decidable About String Constraints with ReplaceAll Function](papers/popl18-replace.pdf), In POPL'18. (Joint with Taolue Chen, Yan Chen, Matthew Hague, and Zhilin Wu)
 1. [Learning to Prove Safety over Parameterised Concurrent Systems](papers/fmcad17_full.pdf), In Proceedings of Formal Methods in Computer-Aided Design (FMCAD), 2017. (Joint with Yu-Fang Chen, Chih-Duo Hong, and Philipp Ruemmer)
