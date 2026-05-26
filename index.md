@@ -1,6 +1,14 @@
 # Homepage of Anthony Widjaja Lin [previously Anthony W. To]
 ![My image](anthony-talk.jpg)
 
+<p align="center">
+  <a href="#background">Background</a> &nbsp;|&nbsp;
+  <a href="#research-interests">Research Interests</a> &nbsp;|&nbsp;
+  <a href="#group-members">Group Members</a> &nbsp;|&nbsp;
+  <a href="publications.md">Publications</a> &nbsp;|&nbsp;
+  <a href="#service">Service</a>
+</p>
+
 ## NEWS
 - Honored to have received an [ICLR'26 Outstanding Paper Award](https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/), together with
   Pascal Bergsträßer and Ryan Cotterel.
@@ -10,6 +18,7 @@
 - I am delighted to be invited as a keynote speaker at [VMCAI'26](https://conf.researchr.org/home/VMCAI-2026)
 - I am delighted to have given an invited talk at [RP'25](https://rp25.software.imdea.org/). The invited paper can be found [here](papers/rp25-invited.pdf)
 
+<a id="background"></a>
 ## Background
 - Full Professor (W3) in Theoretical Computer Science (Automated Reasoning) and 
   Max-Planck Fellow at [University of 
@@ -30,6 +39,7 @@
 - Where I am from: I am Australian (and since recently also German) and was 
   born in Indonesia
 
+<a id="research-interests"></a>
 ## Research Interests
 I am interested in automated reasoning (particularly over 
 [strings](strings.md)), formal language theory, learning/synthesis, and
@@ -43,6 +53,7 @@ Selected Tool:
   supporting complex constraints (concatenation, real-world regexes, lengths, 
   transducers) that primarily exploit regular constraint propagation.
 
+<a id="group-members"></a>
 ## Research Group Members
 ### Current Members
 - Pascal Bergstraßer (Postdoc)
@@ -78,6 +89,7 @@ Selected Tool:
   Postdoc at Nanyang Technical Uni, Singapore)
 - Dr. Oliver Markgraf (completed in 2026)
 
+<a id="service"></a>
 ## Events
 ### PC chair/organizer:
 - [CAV'26](https://conferences.i-cav.org/2026/) (co-chaired with Eva Darulova and Philipp Ruemmer)
