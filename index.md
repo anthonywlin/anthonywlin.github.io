@@ -5,7 +5,7 @@
   <a href="#background">Background</a> &nbsp;|&nbsp;
   <a href="#research-interests">Research Interests</a> &nbsp;|&nbsp;
   <a href="#group-members">Group Members</a> &nbsp;|&nbsp;
-  <a href="publications.md">Publications</a> &nbsp;|&nbsp;
+  [publications page](publications.md) &nbsp;|&nbsp;
   <a href="#service">Service</a>
 </p>
 
