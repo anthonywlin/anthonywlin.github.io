@@ -67,8 +67,7 @@ Selected Tool:
 - Heyang Li (PhD Student)
 
 ### Past Postdocs
-- Dr. Shuanglong Kan (Postdoc Researcher completed in 2022, now Researcher at
-  Certik)
+- Dr. Shuanglong Kan (Postdoc Researcher completed in 2022, now Senior Researcher at Barkenhaus Institut)
 - Dr. Muhammad Najib (Postdoc Researcher completed in 2022, now Lecturer at
     Heriot-Watt University, UK)
 - Dr. Reino Niskanen (Postdoc Researcher completed in 2018, now Lecturer at Liverpool John Moores
@@ -77,17 +76,17 @@ Selected Tool:
   Professor at Polytechnic University of Madrid, Spain)
 - Dr. Daniel Stan (Postdoc Researcher completed in 2022, now Assistant Professor
   at Epita, France)
-- Dr. Di-De Yen (Postdoc Researcher completed in 2023, now postdoc at Academia
-  Sinica, Taipei)
+- Dr. Di-De Yen (Postdoc Researcher completed in 2023, now postdoc at University
+  of Liverpool, UK)
 
 
 ### Past PhD Students
-- Dr. Pascal Bergsträßer (completed in 2025)
+- Dr. Pascal Bergsträßer (completed in 2025, postdoc in the group)
 - Dr. Chih-Duo Hong (PhD student completed in 2022, now Assistant Professor
   at National Chingchi University, Taiwan)
-- Dr. Xuan-Bach Le (PhD student completed in 2018, now 
-  Postdoc at Nanyang Technical Uni, Singapore)
-- Dr. Oliver Markgraf (completed in 2026)
+- Dr. Xuan-Bach Le (PhD student completed in 2018, now Lecturer at Ho Chi Minh
+  City University of Technology, Vietnam)
+- Dr. Oliver Markgraf (completed in 2026, postdoc in the group)
 
 <a id="service"></a>
 ## Events
