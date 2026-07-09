@@ -5,9 +5,9 @@ On this page, you will find pre-print versions of my writings in a chronological
 ## Peer-Reviewed Publications
 1. [Synthesis and Verification of Transformer Programs](https://arxiv.org/abs/2602.16473). Accepted at IJCAI'26. (Hongjian Jiang, Matthew Hague, Philipp 
    Rümmer, Anthony Widjaja Lin)
-1. [Length Generalization Bounds for Transformers](https://arxiv.org/abs/2603.02238). Accepted at ICML'26. (Andy Yang, Pascal Bergsträßer, Georg Zetzsche, 
+1. [Length Generalization Bounds for Transformers](https://arxiv.org/abs/2603.02238). In ICML'26. (Andy Yang, Pascal Bergsträßer, Georg Zetzsche, 
 David Chiang, Anthony W. Lin)
-1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). Accepted at ICML'26. (William Merrill, Hongjian Jiang, Yanhong Li, 
+1. [Why Are Linear RNNs More Parallelizable?](https://arxiv.org/abs/2603.03612). In ICML'26. (William Merrill, Hongjian Jiang, Yanhong Li, 
  Anthony Lin, Ashish Sabharwal)
 1. [The Polynomial Counting Capabilities of Message Passing Neural
    Networks](papers/kr26.pdf). In KR'26. (Marco Sälzer, Pascal 
